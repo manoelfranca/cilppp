@@ -1,0 +1,88 @@
+
+[bottom clause]
+great_ne(A,B) :-
+   alk_groups(B,C), alk_groups(A,C), r_subst_1(B,D), r_subst_1(A,D), 
+   r_subst_2(B,E), r_subst_2(A,E), ring_substitutions(B,F), ring_substitutions(A,C), 
+   ring_subst_2(B,G), ring_subst_3(B,G).
+[sat] [338]
+[great_ne(ii1,y1)]
+
+[bottom clause]
+great_ne(A,B) :-
+   x_subst(A,C,D), alk_groups(B,E), alk_groups(A,E), r_subst_1(B,F), 
+   r_subst_1(A,F), r_subst_2(B,G), r_subst_2(A,G), ring_substitutions(B,E), 
+   ring_substitutions(A,E), ring_subst_4(B,H), ring_subst_4(A,I), polar(I,J), 
+   polar(H,K), polar(D,L), size(I,M), size(H,N), 
+   size(D,M), flex(I,O), flex(H,P), flex(D,O), 
+   h_doner(I,Q), h_doner(H,Q), h_doner(D,Q), h_acceptor(I,R), 
+   h_acceptor(H,R).
+[sat] [339]
+[great_ne(cc1,f1)]
+
+[bottom clause]
+great_ne(A,B) :-
+   x_subst(B,C,D), alk_groups(B,E), alk_groups(A,F), r_subst_1(B,G), 
+   r_subst_1(A,H), r_subst_2(A,I), ring_substitutions(A,F), ring_subst_2(A,J), 
+   polar(J,K), polar(D,L), size(J,M), size(D,M).
+[sat] [340]
+[great_ne(cc1,c1)]
+
+[bottom clause]
+great_ne(A,B) :-
+   x_subst(B,C,D), alk_groups(B,E), alk_groups(A,F), r_subst_1(B,G), 
+   r_subst_1(A,H), r_subst_2(A,I), ring_substitutions(A,F), ring_subst_2(A,J), 
+   polar(J,K), polar(D,K).
+[sat] [341]
+[great_ne(jj1,h1)]
+
+[bottom clause]
+great_ne(A,B) :-
+   x_subst(A,C,D), alk_groups(B,E), alk_groups(A,E), r_subst_1(B,F), 
+   r_subst_1(A,F), r_subst_2(A,G), ring_substitutions(A,H), polar(D,I), 
+   size(D,J), flex(D,K), h_doner(D,L), h_acceptor(D,M), 
+   pi_doner(D,N), pi_acceptor(D,O), polarisable(D,P), sigma(D,Q), 
+   gt(E,H), great_polar(I,R), great_polar(I,S), great_polar(I,T), 
+   great_polar(I,U), great_polar(I,V), great_size(J,W), great_h_acc(M,X), 
+   great_sigma(Q,Y), great_sigma(Q,Z), great_sigma(Q,A1), great_sigma(Q,B1), 
+   great_sigma(Q,C1).
+[sat] [342]
+[great_ne(jj1,y1)]
+
+[bottom clause]
+great_ne(A,B) :-
+   x_subst(A,C,D), alk_groups(B,E), alk_groups(A,E), r_subst_1(B,F), 
+   r_subst_1(A,F), r_subst_2(B,G), r_subst_2(A,G), ring_substitutions(B,E), 
+   ring_substitutions(A,H), ring_subst_4(B,I), gt(E,H).
+[sat] [343]
+[great_ne(b1,c1)]
+
+[bottom clause]
+great_ne(A,B) :-
+   x_subst(B,C,D), x_subst(A,E,D), alk_groups(B,F), alk_groups(A,F), 
+   r_subst_1(B,G), r_subst_1(A,G), polar(D,H), size(D,I), 
+   flex(D,J), h_doner(D,K), h_acceptor(D,L), pi_doner(D,M), 
+   pi_acceptor(D,N), polarisable(D,O), sigma(D,P), great_polar(H,Q), 
+   great_polar(H,R), great_polar(H,S), great_size(I,T), great_polari(O,U), 
+   great_sigma(P,V), great_sigma(P,W), great_sigma(P,X).
+[sat] [344]
+[great_ne(u1,b1)]
+
+[bottom clause]
+great_ne(A,B) :-
+   alk_groups(B,C), alk_groups(A,D), ring_substitutions(A,D), gt(D,C).
+[sat] [345]
+[great_ne(u1,kk1)]
+
+[bottom clause]
+great_ne(A,B) :-
+   x_subst(B,C,D), alk_groups(B,E), ring_substitutions(B,E), ring_subst_3(A,D).
+[sat] [346]
+[great_ne(bb1,h1)]
+
+[bottom clause]
+great_ne(A,B) :-
+   alk_groups(B,C), alk_groups(A,C), r_subst_1(B,D), r_subst_1(A,D), 
+   r_subst_2(A,E), ring_substitutions(A,C), ring_subst_4(A,F), polar(F,G), 
+   size(F,H), flex(F,I), h_doner(F,J), h_acceptor(F,K), 
+   pi_doner(F,L), pi_acceptor(F,M), polarisable(F,N), sigma(F,O), 
+   gt(C,P), great_size(H,Q), great_polari(N,R).

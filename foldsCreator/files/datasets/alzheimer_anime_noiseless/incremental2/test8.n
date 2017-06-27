@@ -1,0 +1,6 @@
+great_ne(h1,bb1).
+great_ne(k1,dd1).
+great_ne(c1,z1).
+great_ne(p1,z1).
+great_ne(a1,p1).
+great_ne(aa1,u1).

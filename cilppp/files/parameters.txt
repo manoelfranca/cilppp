@@ -1,0 +1,119 @@
+# This is the system parameters input values.
+# WARNING: DO NOT CHANGE THE ORDER OF THE PARAMETERS!
+
+##################################################################
+# Observations:
+
+# 1) Some parameters accepts 'max' as value, as an easy way to set some configurations:
+# 
+# AMIN_THRESHOLD=max             -> Amin can assume any initial value, up to 1.0
+# BATCH_SIZE=max                 -> batch will be an entire epoch
+# NUMBER_OF_VALIDATION_FOLDS=max -> leave-one-out folding on validation
+# NUMBER_OF_TEST_FOLDS=max       -> leave-one-out folding on testing
+
+# 2) If any one of the parameters below are not informed
+# (or if it receives an incompatible value), systems default will be used, which are:
+# 
+# STOCHASTIC false
+# BETA 1
+# MINIMAL_INCREMENT 0.01
+# AMIN_THRESHOLD 0.9
+# UNKNOWN_INPUTS_AS_FALSE false
+# EXAMPLES_AS_BK_PROPORTION 0.05
+# USES_RECURSION false
+# COMPLETE_INTERMEDIATE_CONCEPTS false
+# REPLICATE_BK false
+# TRAINING_TYPE 1
+# STRIP_SIZE 0
+# DEFAULT_LEARNING_RATE 0.1
+# DECAY_FACTOR 0.995
+# MOMENTUM 0.0
+# BATCH_SIZE 10
+# MRMR_FILTERING false
+# STABLIZATION_MAX_ITERATIONS 100
+# SIMPLE_STOP_CRITERION true
+# EPSILON 0.001
+# DELTA 0.0001
+# EPOCH_RUNS 100
+# CORRECTNESS_RANGE 0.25
+# CORRECTNESS_PROPORTION 0.99
+# HIT_MARGIN 0.1
+# STABILIZATION_PROPORTION 0.9
+# STABILIZATION_MAX_EPOCHS 5
+# WEIGHT_INITIAL_RANGE 0.0001
+# NUMBER_OF_VALIDATION_FOLDS 3
+# NUMBER_OF_TEST_FOLDS 10
+# PRE_SPLITTED_FOLDS true
+# HIDDEN_NEURONS_VARIATION 5
+# STARTING_HIDDEN_NEURONS 0
+# HIDDEN_NEURONS_FACTOR 0
+# TRAIN_PORTION 0.90
+# PRINT_TRAIN_ERROR false
+# PRINT_TEST_ERROR false
+# DEBUG_MODE false
+##################################################################
+
+# General parameters
+(bool)STOCHASTIC=false
+(float)BETA=1.0
+
+# Building parameters
+(float)MINIMAL_INCREMENT=0.001
+(float)AMIN_THRESHOLD=0.9
+(float)UNKNOWN_INPUTS_AS_FALSE=false
+(float)EXAMPLES_AS_BK_PROPORTION=0.1
+(bool)USES_RECURSION=false
+(bool)COMPLETE_INTERMEDIATE_CONCEPTS=true
+(bool)REPLICATE_BK=false
+(int)MAX_REPLICATION_RECURSION=2
+(int)NEW_BCP=true
+
+# Training parameters
+(0->standard,1->earlyStopping)TRAINING_TYPE=0
+(int)STRIP_SIZE=0
+(float)DEFAULT_LEARNING_RATE=0.05
+(float)DECAY_FACTOR=0.999
+(float)MOMENTUM=0.1
+(int)BATCH_SIZE=1
+(bool)MRMR_FILTERING=true
+(float)FILTERING_PROPORTION=0.5
+(int)STARTING_HIDDEN_NEURONS=2
+(float)TRAIN_PORTION=1.0
+(float)TEST_PORTION=0
+
+# Stablization parameters
+(int)STABLIZATION_MAX_ITERATIONS=5
+
+# Stopping criteria (general)
+(bool)SIMPLE_STOP_CRITERION=false
+
+# Simple stopping criteria parameters
+(float)EPSILON=0.1
+(float)DELTA=0.001
+
+# General stopping criteria 1
+(int)EPOCH_RUNS=500
+
+# General stopping criteria 2
+(float)CORRECTNESS_RANGE=0.1
+(float)CORRECTNESS_PROPORTION=0.95
+
+# General stopping criteria 3
+(float)HIT_MARGIN=0.25
+(float)STABILIZATION_PROPORTION=0.9
+(int)STABILIZATION_MAX_EPOCHS=5
+
+# Cross-validation parameters
+(float)WEIGHT_INITIAL_RANGE=0.001
+(int)NUMBER_OF_VALIDATION_FOLDS=0
+(int)NUMBER_OF_TEST_FOLDS=42
+(bool)PRE_SPLITTED_FOLDS=true
+(float)INPUT_PRUNING_VARIATION=0.0
+(int)PRUNING_RATE_FACTOR=0
+(int)HIDDEN_NEURONS_VARIATION=0
+(int)HIDDEN_NEURONS_FACTOR=0
+
+# Printing parameters
+(bool)PRINT_TRAIN_ERROR=true
+(bool)PRINT_TEST_ERROR=false
+(bool)DEBUG_MODE=false

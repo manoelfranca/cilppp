@@ -1,0 +1,785 @@
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,L), 
+   lumo(A,M), logp(A,N), hansch_attr(A,O), benzene(A,P), 
+   hetero_aromatic_5_ring(A,Q), ring_size_6(A,P), ring_size_5(A,Q), nitro(A,R), 
+   atm_elm(K,S), atm_elm(J,T), atm_elm(I,T), atm_elm(H,S), 
+   atm_elm(G,T), atm_elm(F,T), atm_elm(E,T), atm_elm(D,T), 
+   atm_elm(C,T), atm_elm(B,T), atm_int(K,U), atm_int(J,V), 
+   atm_int(I,V), atm_int(H,W), atm_int(G,X), atm_int(F,X), 
+   atm_int(E,Y), atm_int(D,Y), atm_int(C,X), atm_int(B,X), 
+   atm_chr(K,Z), atm_chr(J,A1), atm_chr(I,B1), atm_chr(H,C1), 
+   atm_chr(G,D1), atm_chr(F,D1), atm_chr(E,E1), atm_chr(D,F1), 
+   atm_chr(C,D1), atm_chr(B,D1), atm_bond(J,I,G1), atm_bond(H,I,G1), 
+   atm_bond(G,B,G1), atm_bond(F,G,G1), atm_bond(E,J,G1), atm_bond(E,F,G1), 
+   atm_bond(D,H,G1), atm_bond(D,E,G1), atm_bond(C,K,H1), atm_bond(C,D,G1), 
+   atm_bond(B,C,G1), lteq_e(M,I1), gteq_e(M,J1), lteq_h(N,K1), 
+   gteq_h(N,L1), lteq_hv(O,M1), gteq_hv(O,N1), connected(R,P), 
+   connected(Q,P), connected(P,R), connected(P,Q).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,L), 
+   lumo(A,M), logp(A,N), hansch_attr(A,O), benzene(A,P), 
+   ring_size_6(A,P), nitro(A,Q), atm_elm(K,R), atm_elm(J,S), 
+   atm_elm(I,T), atm_elm(H,T), atm_elm(G,U), atm_elm(F,U), 
+   atm_elm(E,U), atm_elm(D,U), atm_elm(C,U), atm_elm(B,U), 
+   atm_int(K,V), atm_int(J,W), atm_int(I,X), atm_int(H,X), 
+   atm_int(G,Y), atm_int(F,Y), atm_int(E,Y), atm_int(D,Y), 
+   atm_int(C,Y), atm_int(B,Y), atm_chr(K,Z), atm_chr(J,A1), 
+   atm_chr(I,B1), atm_chr(H,B1), atm_chr(G,C1), atm_chr(F,C1), 
+   atm_chr(E,C1), atm_chr(D,C1), atm_chr(C,C1), atm_chr(B,C1), 
+   atm_bond(J,K,D1), atm_bond(G,I,E1), atm_bond(G,B,F1), atm_bond(F,J,E1), 
+   atm_bond(F,G,F1), atm_bond(E,F,F1), atm_bond(D,E,F1), atm_bond(C,D,F1), 
+   atm_bond(B,H,E1), atm_bond(B,C,F1), lteq_e(M,G1), gteq_e(M,H1), 
+   lteq_h(N,I1), gteq_h(N,J1), lteq_hv(O,K1), gteq_hv(O,L1), 
+   connected(Q,P), connected(P,Q).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,M), 
+   lumo(A,N), logp(A,O), hansch_attr(A,P), benzene(A,Q), 
+   benzene(A,R), benzene(A,S), benzene(A,T), ring_size_6(A,Q), 
+   ring_size_6(A,R), ring_size_6(A,S), ring_size_6(A,T), nitro(A,U), 
+   anthracene(A,V), atm_elm(K,W), atm_elm(J,W), atm_elm(I,W), 
+   atm_elm(H,W), atm_elm(G,X), atm_elm(F,X), atm_elm(E,X), 
+   atm_elm(D,X), atm_elm(C,X), atm_elm(B,X), atm_int(K,Y), 
+   atm_int(J,Y), atm_int(I,Y), atm_int(H,Y), atm_int(G,Z), 
+   atm_int(F,Z), atm_int(E,A1), atm_int(D,A1), atm_int(C,Z), 
+   atm_int(B,Z), atm_chr(K,B1), atm_chr(J,B1), atm_chr(I,B1), 
+   atm_chr(H,B1), atm_chr(G,C1), atm_chr(F,C1), atm_chr(E,D1), 
+   atm_chr(D,D1), atm_chr(C,C1), atm_chr(B,C1), atm_bond(G,K,E1), 
+   atm_bond(G,B,F1), atm_bond(F,J,E1), atm_bond(F,G,F1), atm_bond(E,F,F1), 
+   atm_bond(D,E,F1), atm_bond(C,I,E1), atm_bond(C,D,F1), atm_bond(B,H,E1), 
+   atm_bond(B,C,F1), lteq_e(N,G1), gteq_e(N,H1), lteq_h(O,I1), 
+   gteq_h(O,J1), lteq_hv(P,K1), gteq_hv(P,L1), connected(U,R), 
+   connected(T,S), connected(S,T), connected(S,R), connected(R,U), 
+   connected(R,S), connected(R,Q), connected(Q,R), member(S,V), 
+   member(R,V), member(Q,V).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,L), 
+   lumo(A,M), logp(A,N), hansch_attr(A,O), benzene(A,P), 
+   ring_size_6(A,P), nitro(A,Q), atm_elm(K,R), atm_elm(J,R), 
+   atm_elm(I,R), atm_elm(H,R), atm_elm(G,S), atm_elm(F,S), 
+   atm_elm(E,S), atm_elm(D,S), atm_elm(C,S), atm_elm(B,S), 
+   atm_int(K,T), atm_int(J,T), atm_int(I,T), atm_int(H,T), 
+   atm_int(G,U), atm_int(F,U), atm_int(E,U), atm_int(D,U), 
+   atm_int(C,U), atm_int(B,U), atm_chr(K,V), atm_chr(J,V), 
+   atm_chr(I,V), atm_chr(H,V), atm_chr(G,W), atm_chr(F,W), 
+   atm_chr(E,X), atm_chr(D,W), atm_chr(C,W), atm_chr(B,W), 
+   atm_bond(G,K,Y), atm_bond(G,B,Z), atm_bond(F,G,Z), atm_bond(E,F,Z), 
+   atm_bond(D,J,Y), atm_bond(D,E,Z), atm_bond(C,I,Y), atm_bond(C,D,Z), 
+   atm_bond(B,H,Y), atm_bond(B,C,Z), lteq_e(M,A1), gteq_e(M,B1), 
+   lteq_h(N,C1), gteq_h(N,D1), lteq_hv(O,E1), gteq_hv(O,F1), 
+   connected(Q,P), connected(P,Q).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,L), 
+   lumo(A,M), logp(A,N), hansch_attr(A,O), benzene(A,P), 
+   ring_size_6(A,P), nitro(A,Q), nitro(A,R), atm_elm(K,S), 
+   atm_elm(J,T), atm_elm(I,T), atm_elm(H,T), atm_elm(G,U), 
+   atm_elm(F,U), atm_elm(E,U), atm_elm(D,U), atm_elm(C,U), 
+   atm_elm(B,U), atm_int(K,V), atm_int(J,W), atm_int(I,W), 
+   atm_int(H,W), atm_int(G,X), atm_int(F,X), atm_int(E,X), 
+   atm_int(D,X), atm_int(C,X), atm_int(B,X), atm_chr(K,Y), 
+   atm_chr(J,Z), atm_chr(I,Z), atm_chr(H,Z), atm_chr(G,A1), 
+   atm_chr(F,A1), atm_chr(E,A1), atm_chr(D,A1), atm_chr(C,A1), 
+   atm_chr(B,A1), atm_bond(G,J,B1), atm_bond(G,B,C1), atm_bond(F,K,B1), 
+   atm_bond(F,G,C1), atm_bond(E,F,C1), atm_bond(D,E,C1), atm_bond(C,I,B1), 
+   atm_bond(C,D,C1), atm_bond(B,H,B1), atm_bond(B,C,C1), lteq_e(M,D1), 
+   gteq_e(M,E1), lteq_h(N,F1), gteq_h(N,G1), lteq_hv(O,H1), 
+   gteq_hv(O,I1), connected(R,P), connected(Q,P), connected(P,R), 
+   connected(P,Q).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,L), 
+   lumo(A,M), logp(A,N), hansch_attr(A,O), benzene(A,P), 
+   ring_size_6(A,P), nitro(A,Q), atm_elm(K,R), atm_elm(J,S), 
+   atm_elm(I,S), atm_elm(H,S), atm_elm(G,T), atm_elm(F,T), 
+   atm_elm(E,T), atm_elm(D,T), atm_elm(C,T), atm_elm(B,T), 
+   atm_int(K,U), atm_int(J,V), atm_int(I,V), atm_int(H,V), 
+   atm_int(G,W), atm_int(F,W), atm_int(E,W), atm_int(D,W), 
+   atm_int(C,W), atm_int(B,W), atm_chr(K,X), atm_chr(J,Y), 
+   atm_chr(I,Y), atm_chr(H,Y), atm_chr(G,Z), atm_chr(F,Z), 
+   atm_chr(E,Z), atm_chr(D,Z), atm_chr(C,Z), atm_chr(B,Z), 
+   atm_bond(G,J,A1), atm_bond(G,B,B1), atm_bond(F,K,A1), atm_bond(F,G,B1), 
+   atm_bond(E,F,B1), atm_bond(D,E,B1), atm_bond(C,I,A1), atm_bond(C,D,B1), 
+   atm_bond(B,H,A1), atm_bond(B,C,B1), lteq_e(M,C1), gteq_e(M,D1), 
+   lteq_h(N,E1), gteq_h(N,F1), lteq_hv(O,G1), gteq_hv(O,H1), 
+   connected(Q,P), connected(P,Q).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,M), 
+   lumo(A,N), logp(A,O), hansch_attr(A,P), benzene(A,Q), 
+   benzene(A,R), benzene(A,S), carbon_6_ring(A,T), ring_size_6(A,T), 
+   ring_size_6(A,Q), ring_size_6(A,R), ring_size_6(A,S), nitro(A,U), 
+   atm_elm(K,V), atm_elm(J,V), atm_elm(I,V), atm_elm(H,V), 
+   atm_elm(G,V), atm_elm(F,V), atm_elm(E,V), atm_elm(D,V), 
+   atm_elm(C,V), atm_elm(B,V), atm_int(K,W), atm_int(J,X), 
+   atm_int(I,Y), atm_int(H,W), atm_int(G,Z), atm_int(F,Z), 
+   atm_int(E,W), atm_int(D,W), atm_int(C,A1), atm_int(B,A1), 
+   atm_chr(K,B1), atm_chr(J,C1), atm_chr(I,D1), atm_chr(H,B1), 
+   atm_chr(G,E1), atm_chr(F,E1), atm_chr(E,F1), atm_chr(D,B1), 
+   atm_chr(C,D1), atm_chr(B,F1), atm_bond(K,E,G1), atm_bond(J,K,G1), 
+   atm_bond(I,J,G1), atm_bond(H,I,G1), atm_bond(G,B,H1), atm_bond(F,G,I1), 
+   atm_bond(E,F,H1), atm_bond(D,H,G1), atm_bond(D,E,G1), atm_bond(C,D,H1), 
+   atm_bond(B,C,H1), lteq_e(N,J1), gteq_e(N,K1), lteq_h(O,L1), 
+   gteq_h(O,M1), lteq_hv(P,N1), gteq_hv(P,O1), connected(U,Q), 
+   connected(T,Q), connected(S,R), connected(R,S), connected(R,Q), 
+   connected(Q,U), connected(Q,T), connected(Q,R).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,L), 
+   lumo(A,M), logp(A,N), hansch_attr(A,O), benzene(A,P), 
+   hetero_aromatic_5_ring(A,Q), ring_size_6(A,P), ring_size_5(A,Q), nitro(A,R), 
+   methyl(A,S), atm_elm(K,T), atm_elm(J,T), atm_elm(I,T), 
+   atm_elm(H,U), atm_elm(G,T), atm_elm(F,T), atm_elm(E,T), 
+   atm_elm(D,T), atm_elm(C,T), atm_elm(B,T), atm_int(K,V), 
+   atm_int(J,W), atm_int(I,W), atm_int(H,X), atm_int(G,Y), 
+   atm_int(F,Y), atm_int(E,Z), atm_int(D,Z), atm_int(C,Y), 
+   atm_int(B,Y), atm_chr(K,A1), atm_chr(J,B1), atm_chr(I,C1), 
+   atm_chr(H,D1), atm_chr(G,E1), atm_chr(F,E1), atm_chr(E,F1), 
+   atm_chr(D,G1), atm_chr(C,E1), atm_chr(B,E1), atm_bond(J,I,H1), 
+   atm_bond(H,K,I1), atm_bond(H,I,H1), atm_bond(G,B,H1), atm_bond(F,G,H1), 
+   atm_bond(E,J,H1), atm_bond(E,F,H1), atm_bond(D,H,H1), atm_bond(D,E,H1), 
+   atm_bond(C,D,H1), atm_bond(B,C,H1), lteq_e(M,J1), gteq_e(M,K1), 
+   lteq_h(N,L1), gteq_h(N,M1), lteq_hv(O,N1), gteq_hv(O,O1), 
+   connected(S,Q), connected(R,P), connected(Q,S), connected(Q,P), 
+   connected(P,R), connected(P,Q).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,L), 
+   lumo(A,M), logp(A,N), hansch_attr(A,O), benzene(A,P), 
+   hetero_aromatic_5_ring(A,Q), ring_size_6(A,P), ring_size_5(A,Q), nitro(A,R), 
+   atm_elm(K,S), atm_elm(J,T), atm_elm(I,S), atm_elm(H,S), 
+   atm_elm(G,T), atm_elm(F,T), atm_elm(E,T), atm_elm(D,T), 
+   atm_elm(C,T), atm_elm(B,T), atm_int(K,U), atm_int(J,V), 
+   atm_int(I,W), atm_int(H,W), atm_int(G,X), atm_int(F,X), 
+   atm_int(E,Y), atm_int(D,Y), atm_int(C,X), atm_int(B,X), 
+   atm_chr(K,Z), atm_chr(J,A1), atm_chr(I,B1), atm_chr(H,B1), 
+   atm_chr(G,A1), atm_chr(F,A1), atm_chr(E,C1), atm_chr(D,D1), 
+   atm_chr(C,A1), atm_chr(B,A1), atm_bond(J,I,E1), atm_bond(H,I,E1), 
+   atm_bond(G,K,F1), atm_bond(G,B,E1), atm_bond(F,G,E1), atm_bond(E,J,E1), 
+   atm_bond(E,F,E1), atm_bond(D,H,E1), atm_bond(D,E,E1), atm_bond(C,D,E1), 
+   atm_bond(B,C,E1), lteq_e(M,G1), gteq_e(M,H1), lteq_h(N,I1), 
+   gteq_h(N,J1), lteq_hv(O,K1), gteq_hv(O,L1), connected(R,P), 
+   connected(Q,P), connected(P,R), connected(P,Q).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,M), 
+   lumo(A,N), logp(A,O), hansch_attr(A,P), benzene(A,Q), 
+   benzene(A,R), benzene(A,S), carbon_6_ring(A,T), ring_size_6(A,Q), 
+   ring_size_6(A,R), ring_size_6(A,S), ring_size_6(A,T), nitro(A,U), 
+   anthracene(A,V), atm_elm(K,W), atm_elm(J,W), atm_elm(I,W), 
+   atm_elm(H,W), atm_elm(G,W), atm_elm(F,W), atm_elm(E,W), 
+   atm_elm(D,W), atm_elm(C,W), atm_elm(B,W), atm_int(K,X), 
+   atm_int(J,Y), atm_int(I,Y), atm_int(H,X), atm_int(G,X), 
+   atm_int(F,X), atm_int(E,Y), atm_int(D,Y), atm_int(C,X), 
+   atm_int(B,X), atm_chr(K,Z), atm_chr(J,A1), atm_chr(I,A1), 
+   atm_chr(H,Z), atm_chr(G,Z), atm_chr(F,Z), atm_chr(E,A1), 
+   atm_chr(D,A1), atm_chr(C,Z), atm_chr(B,Z), atm_bond(K,E,B1), 
+   atm_bond(J,K,B1), atm_bond(I,J,B1), atm_bond(H,I,B1), atm_bond(G,B,B1), 
+   atm_bond(F,G,B1), atm_bond(E,F,B1), atm_bond(D,H,B1), atm_bond(D,E,B1), 
+   atm_bond(C,D,B1), atm_bond(B,C,B1), lteq_e(N,C1), gteq_e(N,D1), 
+   lteq_h(O,E1), gteq_h(O,F1), lteq_hv(P,G1), gteq_hv(P,H1), 
+   connected(U,R), connected(T,S), connected(S,T), connected(S,R), 
+   connected(R,U), connected(R,S), connected(R,Q), connected(Q,R), 
+   member(S,V), member(R,V), member(Q,V).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,L), 
+   lumo(A,M), logp(A,N), hansch_attr(A,O), benzene(A,P), 
+   benzene(A,Q), ring_size_6(A,P), ring_size_6(A,Q), nitro(A,R), 
+   nitro(A,S), nitro(A,T), nitro(A,U), atm_elm(K,V), 
+   atm_elm(J,V), atm_elm(I,W), atm_elm(H,W), atm_elm(G,V), 
+   atm_elm(F,V), atm_elm(E,V), atm_elm(D,V), atm_elm(C,V), 
+   atm_elm(B,V), atm_int(K,X), atm_int(J,X), atm_int(I,Y), 
+   atm_int(H,Y), atm_int(G,X), atm_int(F,X), atm_int(E,Z), 
+   atm_int(D,Z), atm_int(C,X), atm_int(B,X), atm_chr(K,A1), 
+   atm_chr(J,A1), atm_chr(I,B1), atm_chr(H,B1), atm_chr(G,A1), 
+   atm_chr(F,A1), atm_chr(E,C1), atm_chr(D,C1), atm_chr(C,A1), 
+   atm_chr(B,A1), atm_bond(J,K,D1), atm_bond(G,I,E1), atm_bond(G,B,D1), 
+   atm_bond(F,G,D1), atm_bond(E,F,D1), atm_bond(D,J,D1), atm_bond(D,E,D1), 
+   atm_bond(C,H,E1), atm_bond(C,D,D1), atm_bond(B,C,D1), lteq_e(M,F1), 
+   gteq_e(M,G1), lteq_h(N,H1), gteq_h(N,I1), lteq_hv(O,J1), 
+   gteq_hv(O,K1), connected(U,P), connected(T,P), connected(S,Q), 
+   connected(R,Q), connected(Q,S), connected(Q,R), connected(Q,P), 
+   connected(P,U), connected(P,T), connected(P,Q).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,L), 
+   lumo(A,M), logp(A,N), hansch_attr(A,O), benzene(A,P), 
+   ring_size_6(A,P), nitro(A,Q), atm_elm(K,R), atm_elm(J,S), 
+   atm_elm(I,T), atm_elm(H,T), atm_elm(G,U), atm_elm(F,U), 
+   atm_elm(E,U), atm_elm(D,U), atm_elm(C,U), atm_elm(B,U), 
+   atm_int(K,V), atm_int(J,W), atm_int(I,X), atm_int(H,X), 
+   atm_int(G,Y), atm_int(F,Y), atm_int(E,Y), atm_int(D,Y), 
+   atm_int(C,Y), atm_int(B,Y), atm_chr(K,Z), atm_chr(J,A1), 
+   atm_chr(I,B1), atm_chr(H,B1), atm_chr(G,C1), atm_chr(F,C1), 
+   atm_chr(E,C1), atm_chr(D,C1), atm_chr(C,C1), atm_chr(B,C1), 
+   atm_bond(J,K,D1), atm_bond(G,I,E1), atm_bond(G,B,F1), atm_bond(F,J,E1), 
+   atm_bond(F,G,F1), atm_bond(E,F,F1), atm_bond(D,E,F1), atm_bond(C,D,F1), 
+   atm_bond(B,H,E1), atm_bond(B,C,F1), lteq_e(M,G1), gteq_e(M,H1), 
+   lteq_h(N,I1), gteq_h(N,J1), lteq_hv(O,K1), gteq_hv(O,L1), 
+   connected(Q,P), connected(P,Q).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,M), 
+   lumo(A,N), logp(A,O), hansch_attr(A,P), benzene(A,Q), 
+   benzene(A,R), benzene(A,S), benzene(A,T), carbon_6_ring(A,U), 
+   ring_size_6(A,U), ring_size_6(A,Q), ring_size_6(A,R), ring_size_6(A,S), 
+   ring_size_6(A,T), nitro(A,V), phenanthrene(A,W), ball3(A,X), 
+   ball3(A,Y), atm_elm(K,Z), atm_elm(J,Z), atm_elm(I,Z), 
+   atm_elm(H,Z), atm_elm(G,Z), atm_elm(F,Z), atm_elm(E,Z), 
+   atm_elm(D,Z), atm_elm(C,Z), atm_elm(B,Z), atm_int(K,A1), 
+   atm_int(J,A1), atm_int(I,A1), atm_int(H,B1), atm_int(G,C1), 
+   atm_int(F,C1), atm_int(E,B1), atm_int(D,B1), atm_int(C,C1), 
+   atm_int(B,C1), atm_chr(K,D1), atm_chr(J,E1), atm_chr(I,D1), 
+   atm_chr(H,F1), atm_chr(G,E1), atm_chr(F,E1), atm_chr(E,D1), 
+   atm_chr(D,D1), atm_chr(C,E1), atm_chr(B,E1), atm_bond(K,E,G1), 
+   atm_bond(J,K,G1), atm_bond(I,J,G1), atm_bond(H,I,G1), atm_bond(G,B,H1), 
+   atm_bond(F,G,H1), atm_bond(E,F,H1), atm_bond(D,H,G1), atm_bond(D,E,G1), 
+   atm_bond(C,D,H1), atm_bond(B,C,H1), lteq_e(N,I1), gteq_e(N,J1), 
+   lteq_h(O,K1), gteq_h(O,L1), lteq_hv(P,M1), gteq_hv(P,N1), 
+   connected(V,Q), connected(U,Q), connected(T,S), connected(T,R), 
+   connected(S,T), connected(S,R), connected(S,Q), connected(R,T), 
+   connected(R,S), connected(R,Q), connected(Q,V), connected(Q,U), 
+   connected(Q,S), connected(Q,R), member(T,Y), member(T,W), 
+   member(S,Y), member(S,X), member(R,Y), member(R,X), 
+   member(R,W), member(Q,X), member(Q,W).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,L), 
+   lumo(A,M), logp(A,N), hansch_attr(A,O), benzene(A,P), 
+   hetero_aromatic_5_ring(A,Q), ring_size_6(A,P), ring_size_5(A,Q), nitro(A,R), 
+   methyl(A,S), atm_elm(K,T), atm_elm(J,T), atm_elm(I,T), 
+   atm_elm(H,U), atm_elm(G,T), atm_elm(F,T), atm_elm(E,T), 
+   atm_elm(D,T), atm_elm(C,T), atm_elm(B,T), atm_int(K,V), 
+   atm_int(J,W), atm_int(I,W), atm_int(H,X), atm_int(G,Y), 
+   atm_int(F,Y), atm_int(E,Z), atm_int(D,Z), atm_int(C,Y), 
+   atm_int(B,Y), atm_chr(K,A1), atm_chr(J,B1), atm_chr(I,C1), 
+   atm_chr(H,D1), atm_chr(G,E1), atm_chr(F,E1), atm_chr(E,F1), 
+   atm_chr(D,G1), atm_chr(C,E1), atm_chr(B,E1), atm_bond(J,I,H1), 
+   atm_bond(H,K,I1), atm_bond(H,I,H1), atm_bond(G,B,H1), atm_bond(F,G,H1), 
+   atm_bond(E,J,H1), atm_bond(E,F,H1), atm_bond(D,H,H1), atm_bond(D,E,H1), 
+   atm_bond(C,D,H1), atm_bond(B,C,H1), lteq_e(M,J1), gteq_e(M,K1), 
+   lteq_h(N,L1), gteq_h(N,M1), lteq_hv(O,N1), gteq_hv(O,O1), 
+   connected(S,Q), connected(R,P), connected(Q,S), connected(Q,P), 
+   connected(P,R), connected(P,Q).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,M), 
+   lumo(A,N), logp(A,O), hansch_attr(A,P), benzene(A,Q), 
+   benzene(A,R), benzene(A,S), benzene(A,T), ring_size_6(A,Q), 
+   ring_size_6(A,R), ring_size_6(A,S), ring_size_6(A,T), nitro(A,U), 
+   phenanthrene(A,V), atm_elm(K,W), atm_elm(J,W), atm_elm(I,W), 
+   atm_elm(H,W), atm_elm(G,X), atm_elm(F,X), atm_elm(E,X), 
+   atm_elm(D,X), atm_elm(C,X), atm_elm(B,X), atm_int(K,Y), 
+   atm_int(J,Y), atm_int(I,Y), atm_int(H,Y), atm_int(G,Z), 
+   atm_int(F,Z), atm_int(E,A1), atm_int(D,A1), atm_int(C,Z), 
+   atm_int(B,Z), atm_chr(K,B1), atm_chr(J,B1), atm_chr(I,B1), 
+   atm_chr(H,B1), atm_chr(G,C1), atm_chr(F,C1), atm_chr(E,D1), 
+   atm_chr(D,E1), atm_chr(C,C1), atm_chr(B,C1), atm_bond(G,K,F1), 
+   atm_bond(G,B,G1), atm_bond(F,J,F1), atm_bond(F,G,G1), atm_bond(E,F,G1), 
+   atm_bond(D,E,G1), atm_bond(C,I,F1), atm_bond(C,D,G1), atm_bond(B,H,F1), 
+   atm_bond(B,C,G1), lteq_e(N,H1), gteq_e(N,I1), lteq_h(O,J1), 
+   gteq_h(O,K1), lteq_hv(P,L1), gteq_hv(P,M1), connected(U,T), 
+   connected(T,U), connected(T,S), connected(S,T), connected(S,R), 
+   connected(R,S), connected(R,Q), connected(Q,R), member(S,V), 
+   member(R,V), member(Q,V).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,M), 
+   lumo(A,N), logp(A,O), hansch_attr(A,P), benzene(A,Q), 
+   benzene(A,R), carbon_6_ring(A,S), ring_size_6(A,Q), ring_size_6(A,R), 
+   ring_size_6(A,S), nitro(A,T), atm_elm(K,U), atm_elm(J,U), 
+   atm_elm(I,U), atm_elm(H,U), atm_elm(G,U), atm_elm(F,U), 
+   atm_elm(E,U), atm_elm(D,U), atm_elm(C,U), atm_elm(B,U), 
+   atm_int(K,V), atm_int(J,V), atm_int(I,V), atm_int(H,V), 
+   atm_int(G,V), atm_int(F,V), atm_int(E,W), atm_int(D,W), 
+   atm_int(C,V), atm_int(B,V), atm_chr(K,X), atm_chr(J,Y), 
+   atm_chr(I,X), atm_chr(H,X), atm_chr(G,X), atm_chr(F,X), 
+   atm_chr(E,Z), atm_chr(D,Z), atm_chr(C,X), atm_chr(B,X), 
+   atm_bond(K,E,A1), atm_bond(J,K,A1), atm_bond(I,J,A1), atm_bond(H,I,A1), 
+   atm_bond(G,B,A1), atm_bond(F,G,A1), atm_bond(E,F,A1), atm_bond(D,H,A1), 
+   atm_bond(D,E,A1), atm_bond(C,D,A1), atm_bond(B,C,A1), lteq_e(N,B1), 
+   gteq_e(N,C1), lteq_h(O,D1), gteq_h(O,E1), lteq_hv(P,F1), 
+   gteq_hv(P,G1), connected(T,R), connected(S,R), connected(R,T), 
+   connected(R,S), connected(R,Q), connected(Q,R).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,M), 
+   lumo(A,N), logp(A,O), hansch_attr(A,P), benzene(A,Q), 
+   benzene(A,R), benzene(A,S), benzene(A,T), carbon_6_ring(A,U), 
+   ring_size_6(A,U), ring_size_6(A,Q), ring_size_6(A,R), ring_size_6(A,S), 
+   ring_size_6(A,T), nitro(A,V), phenanthrene(A,W), ball3(A,X), 
+   ball3(A,Y), atm_elm(K,Z), atm_elm(J,Z), atm_elm(I,Z), 
+   atm_elm(H,Z), atm_elm(G,Z), atm_elm(F,Z), atm_elm(E,Z), 
+   atm_elm(D,Z), atm_elm(C,Z), atm_elm(B,Z), atm_int(K,A1), 
+   atm_int(J,A1), atm_int(I,A1), atm_int(H,B1), atm_int(G,C1), 
+   atm_int(F,C1), atm_int(E,B1), atm_int(D,B1), atm_int(C,C1), 
+   atm_int(B,C1), atm_chr(K,D1), atm_chr(J,E1), atm_chr(I,D1), 
+   atm_chr(H,F1), atm_chr(G,E1), atm_chr(F,E1), atm_chr(E,D1), 
+   atm_chr(D,F1), atm_chr(C,D1), atm_chr(B,E1), atm_bond(K,E,G1), 
+   atm_bond(J,K,G1), atm_bond(I,J,G1), atm_bond(H,I,G1), atm_bond(G,B,H1), 
+   atm_bond(F,G,H1), atm_bond(E,F,H1), atm_bond(D,H,G1), atm_bond(D,E,G1), 
+   atm_bond(C,D,H1), atm_bond(B,C,H1), lteq_e(N,I1), gteq_e(N,J1), 
+   lteq_h(O,K1), gteq_h(O,L1), lteq_hv(P,M1), gteq_hv(P,N1), 
+   connected(V,Q), connected(U,Q), connected(T,S), connected(T,R), 
+   connected(S,T), connected(S,R), connected(S,Q), connected(R,T), 
+   connected(R,S), connected(R,Q), connected(Q,V), connected(Q,U), 
+   connected(Q,S), connected(Q,R), member(T,Y), member(T,W), 
+   member(S,Y), member(S,X), member(R,Y), member(R,X), 
+   member(R,W), member(Q,X), member(Q,W).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,L), 
+   lumo(A,M), logp(A,N), hansch_attr(A,O), benzene(A,P), 
+   ring_size_6(A,P), nitro(A,Q), atm_elm(K,R), atm_elm(J,S), 
+   atm_elm(I,S), atm_elm(H,S), atm_elm(G,T), atm_elm(F,T), 
+   atm_elm(E,T), atm_elm(D,T), atm_elm(C,T), atm_elm(B,T), 
+   atm_int(K,U), atm_int(J,V), atm_int(I,V), atm_int(H,V), 
+   atm_int(G,W), atm_int(F,W), atm_int(E,W), atm_int(D,W), 
+   atm_int(C,W), atm_int(B,W), atm_chr(K,X), atm_chr(J,Y), 
+   atm_chr(I,Y), atm_chr(H,Y), atm_chr(G,Z), atm_chr(F,Z), 
+   atm_chr(E,Z), atm_chr(D,A1), atm_chr(C,Z), atm_chr(B,Z), 
+   atm_bond(G,J,B1), atm_bond(G,B,C1), atm_bond(F,K,B1), atm_bond(F,G,C1), 
+   atm_bond(E,F,C1), atm_bond(D,E,C1), atm_bond(C,I,B1), atm_bond(C,D,C1), 
+   atm_bond(B,H,B1), atm_bond(B,C,C1), lteq_e(M,D1), gteq_e(M,E1), 
+   lteq_h(N,F1), gteq_h(N,G1), lteq_hv(O,H1), gteq_hv(O,I1), 
+   connected(Q,P), connected(P,Q).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,L), 
+   lumo(A,M), logp(A,N), hansch_attr(A,O), benzene(A,P), 
+   hetero_aromatic_5_ring(A,Q), ring_size_6(A,P), ring_size_5(A,Q), nitro(A,R), 
+   atm_elm(K,S), atm_elm(J,T), atm_elm(I,T), atm_elm(H,S), 
+   atm_elm(G,T), atm_elm(F,T), atm_elm(E,T), atm_elm(D,T), 
+   atm_elm(C,T), atm_elm(B,T), atm_int(K,U), atm_int(J,V), 
+   atm_int(I,V), atm_int(H,W), atm_int(G,X), atm_int(F,X), 
+   atm_int(E,Y), atm_int(D,Y), atm_int(C,X), atm_int(B,X), 
+   atm_chr(K,Z), atm_chr(J,A1), atm_chr(I,B1), atm_chr(H,C1), 
+   atm_chr(G,D1), atm_chr(F,D1), atm_chr(E,E1), atm_chr(D,F1), 
+   atm_chr(C,G1), atm_chr(B,G1), atm_bond(J,I,H1), atm_bond(H,I,H1), 
+   atm_bond(G,B,H1), atm_bond(F,K,I1), atm_bond(F,G,H1), atm_bond(E,J,H1), 
+   atm_bond(E,F,H1), atm_bond(D,H,H1), atm_bond(D,E,H1), atm_bond(C,D,H1), 
+   atm_bond(B,C,H1), lteq_e(M,J1), gteq_e(M,K1), lteq_h(N,L1), 
+   gteq_h(N,M1), lteq_hv(O,N1), gteq_hv(O,O1), connected(R,P), 
+   connected(Q,P), connected(P,R), connected(P,Q).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,M), 
+   lumo(A,N), logp(A,O), hansch_attr(A,P), benzene(A,Q), 
+   benzene(A,R), benzene(A,S), carbon_6_ring(A,T), ring_size_6(A,T), 
+   ring_size_6(A,Q), ring_size_6(A,R), ring_size_6(A,S), nitro(A,U), 
+   atm_elm(K,V), atm_elm(J,V), atm_elm(I,V), atm_elm(H,V), 
+   atm_elm(G,V), atm_elm(F,V), atm_elm(E,V), atm_elm(D,V), 
+   atm_elm(C,V), atm_elm(B,V), atm_int(K,W), atm_int(J,W), 
+   atm_int(I,W), atm_int(H,W), atm_int(G,X), atm_int(F,X), 
+   atm_int(E,Y), atm_int(D,X), atm_int(C,Y), atm_int(B,Y), 
+   atm_chr(K,Z), atm_chr(J,Z), atm_chr(I,Z), atm_chr(H,Z), 
+   atm_chr(G,A1), atm_chr(F,A1), atm_chr(E,A1), atm_chr(D,A1), 
+   atm_chr(C,A1), atm_chr(B,A1), atm_bond(K,F,B1), atm_bond(J,K,B1), 
+   atm_bond(I,J,B1), atm_bond(H,I,B1), atm_bond(G,B,B1), atm_bond(F,G,C1), 
+   atm_bond(E,H,B1), atm_bond(E,F,B1), atm_bond(D,E,C1), atm_bond(C,D,B1), 
+   atm_bond(B,C,C1), lteq_e(N,D1), gteq_e(N,E1), lteq_h(O,F1), 
+   gteq_h(O,G1), lteq_hv(P,H1), gteq_hv(P,I1), connected(U,S), 
+   connected(T,S), connected(T,R), connected(T,Q), connected(S,U), 
+   connected(S,T), connected(R,T), connected(Q,T).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,M), 
+   lumo(A,N), logp(A,O), hansch_attr(A,P), benzene(A,Q), 
+   benzene(A,R), benzene(A,S), ring_size_6(A,Q), ring_size_6(A,R), 
+   ring_size_6(A,S), nitro(A,T), anthracene(A,U), atm_elm(K,V), 
+   atm_elm(J,V), atm_elm(I,V), atm_elm(H,V), atm_elm(G,W), 
+   atm_elm(F,W), atm_elm(E,W), atm_elm(D,W), atm_elm(C,W), 
+   atm_elm(B,W), atm_int(K,X), atm_int(J,X), atm_int(I,X), 
+   atm_int(H,X), atm_int(G,Y), atm_int(F,Y), atm_int(E,Z), 
+   atm_int(D,Z), atm_int(C,Y), atm_int(B,Y), atm_chr(K,A1), 
+   atm_chr(J,A1), atm_chr(I,A1), atm_chr(H,A1), atm_chr(G,B1), 
+   atm_chr(F,B1), atm_chr(E,C1), atm_chr(D,C1), atm_chr(C,B1), 
+   atm_chr(B,B1), atm_bond(G,K,D1), atm_bond(G,B,E1), atm_bond(F,J,D1), 
+   atm_bond(F,G,E1), atm_bond(E,F,E1), atm_bond(D,E,E1), atm_bond(C,I,D1), 
+   atm_bond(C,D,E1), atm_bond(B,H,D1), atm_bond(B,C,E1), lteq_e(N,F1), 
+   gteq_e(N,G1), lteq_h(O,H1), gteq_h(O,I1), lteq_hv(P,J1), 
+   gteq_hv(P,K1), connected(T,R), connected(S,R), connected(R,T), 
+   connected(R,S), connected(R,Q), connected(Q,R), member(S,U), 
+   member(R,U), member(Q,U).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,M), 
+   lumo(A,N), logp(A,O), hansch_attr(A,P), benzene(A,Q), 
+   benzene(A,R), benzene(A,S), benzene(A,T), ring_size_6(A,Q), 
+   ring_size_6(A,R), ring_size_6(A,S), ring_size_6(A,T), nitro(A,U), 
+   phenanthrene(A,V), atm_elm(K,W), atm_elm(J,W), atm_elm(I,W), 
+   atm_elm(H,W), atm_elm(G,X), atm_elm(F,X), atm_elm(E,X), 
+   atm_elm(D,X), atm_elm(C,X), atm_elm(B,X), atm_int(K,Y), 
+   atm_int(J,Y), atm_int(I,Y), atm_int(H,Y), atm_int(G,Z), 
+   atm_int(F,Z), atm_int(E,A1), atm_int(D,A1), atm_int(C,Z), 
+   atm_int(B,Z), atm_chr(K,B1), atm_chr(J,B1), atm_chr(I,B1), 
+   atm_chr(H,B1), atm_chr(G,C1), atm_chr(F,C1), atm_chr(E,D1), 
+   atm_chr(D,E1), atm_chr(C,C1), atm_chr(B,C1), atm_bond(G,K,F1), 
+   atm_bond(G,B,G1), atm_bond(F,J,F1), atm_bond(F,G,G1), atm_bond(E,F,G1), 
+   atm_bond(D,E,G1), atm_bond(C,I,F1), atm_bond(C,D,G1), atm_bond(B,H,F1), 
+   atm_bond(B,C,G1), lteq_e(N,H1), gteq_e(N,I1), lteq_h(O,J1), 
+   gteq_h(O,K1), lteq_hv(P,L1), gteq_hv(P,M1), connected(U,R), 
+   connected(T,S), connected(S,T), connected(S,R), connected(R,U), 
+   connected(R,S), connected(R,Q), connected(Q,R), member(S,V), 
+   member(R,V), member(Q,V).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,M), 
+   lumo(A,N), logp(A,O), hansch_attr(A,P), benzene(A,Q), 
+   benzene(A,R), ring_size_6(A,Q), ring_size_6(A,R), ring_size_5(A,S), 
+   nitro(A,T), atm_elm(K,U), atm_elm(J,U), atm_elm(I,U), 
+   atm_elm(H,U), atm_elm(G,V), atm_elm(F,V), atm_elm(E,V), 
+   atm_elm(D,V), atm_elm(C,V), atm_elm(B,V), atm_int(K,W), 
+   atm_int(J,W), atm_int(I,W), atm_int(H,W), atm_int(G,X), 
+   atm_int(F,X), atm_int(E,Y), atm_int(D,X), atm_int(C,X), 
+   atm_int(B,X), atm_chr(K,Z), atm_chr(J,Z), atm_chr(I,Z), 
+   atm_chr(H,Z), atm_chr(G,A1), atm_chr(F,A1), atm_chr(E,B1), 
+   atm_chr(D,C1), atm_chr(C,A1), atm_chr(B,A1), atm_bond(G,K,D1), 
+   atm_bond(G,B,E1), atm_bond(F,J,D1), atm_bond(F,G,E1), atm_bond(E,F,E1), 
+   atm_bond(D,E,E1), atm_bond(C,I,D1), atm_bond(C,D,E1), atm_bond(B,H,D1), 
+   atm_bond(B,C,E1), lteq_e(N,F1), gteq_e(N,G1), lteq_h(O,H1), 
+   gteq_h(O,I1), lteq_hv(P,J1), gteq_hv(P,K1), connected(T,R), 
+   connected(S,R), connected(S,Q), connected(R,T), connected(R,S), 
+   connected(Q,S).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,L), 
+   lumo(A,M), logp(A,N), hansch_attr(A,O), benzene(A,P), 
+   ring_size_6(A,P), ring_size_5(A,Q), nitro(A,R), methyl(A,S), 
+   atm_elm(K,T), atm_elm(J,U), atm_elm(I,U), atm_elm(H,U), 
+   atm_elm(G,V), atm_elm(F,V), atm_elm(E,V), atm_elm(D,V), 
+   atm_elm(C,V), atm_elm(B,V), atm_int(K,W), atm_int(J,X), 
+   atm_int(I,X), atm_int(H,X), atm_int(G,Y), atm_int(F,Y), 
+   atm_int(E,Y), atm_int(D,Y), atm_int(C,Y), atm_int(B,Y), 
+   atm_chr(K,Z), atm_chr(J,A1), atm_chr(I,A1), atm_chr(H,A1), 
+   atm_chr(G,B1), atm_chr(F,B1), atm_chr(E,C1), atm_chr(D,D1), 
+   atm_chr(C,B1), atm_chr(B,E1), atm_bond(G,B,F1), atm_bond(F,J,G1), 
+   atm_bond(F,G,F1), atm_bond(E,F,F1), atm_bond(D,K,G1), atm_bond(D,E,F1), 
+   atm_bond(C,I,G1), atm_bond(C,D,F1), atm_bond(B,H,G1), atm_bond(B,C,F1), 
+   lteq_e(M,H1), gteq_e(M,I1), lteq_h(N,J1), gteq_h(N,K1), 
+   lteq_hv(O,L1), gteq_hv(O,M1), connected(S,Q), connected(R,P), 
+   connected(Q,S), connected(Q,P), connected(P,R), connected(P,Q).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,L), 
+   lumo(A,M), logp(A,N), hansch_attr(A,O), benzene(A,P), 
+   ring_size_6(A,P), nitro(A,Q), atm_elm(K,R), atm_elm(J,S), 
+   atm_elm(I,T), atm_elm(H,T), atm_elm(G,U), atm_elm(F,U), 
+   atm_elm(E,U), atm_elm(D,U), atm_elm(C,U), atm_elm(B,U), 
+   atm_int(K,V), atm_int(J,W), atm_int(I,X), atm_int(H,X), 
+   atm_int(G,Y), atm_int(F,Y), atm_int(E,Y), atm_int(D,Y), 
+   atm_int(C,Y), atm_int(B,Y), atm_chr(K,Z), atm_chr(J,A1), 
+   atm_chr(I,B1), atm_chr(H,B1), atm_chr(G,C1), atm_chr(F,C1), 
+   atm_chr(E,C1), atm_chr(D,C1), atm_chr(C,C1), atm_chr(B,C1), 
+   atm_bond(J,K,D1), atm_bond(G,I,E1), atm_bond(G,B,F1), atm_bond(F,J,E1), 
+   atm_bond(F,G,F1), atm_bond(E,F,F1), atm_bond(D,E,F1), atm_bond(C,D,F1), 
+   atm_bond(B,H,E1), atm_bond(B,C,F1), lteq_e(M,G1), gteq_e(M,H1), 
+   lteq_h(N,I1), gteq_h(N,J1), lteq_hv(O,K1), gteq_hv(O,L1), 
+   connected(Q,P), connected(P,Q).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,M), 
+   lumo(A,N), logp(A,O), hansch_attr(A,P), benzene(A,Q), 
+   benzene(A,R), carbon_6_ring(A,S), ring_size_6(A,Q), ring_size_6(A,R), 
+   ring_size_6(A,S), nitro(A,T), atm_elm(K,U), atm_elm(J,U), 
+   atm_elm(I,U), atm_elm(H,U), atm_elm(G,U), atm_elm(F,U), 
+   atm_elm(E,U), atm_elm(D,U), atm_elm(C,U), atm_elm(B,U), 
+   atm_int(K,V), atm_int(J,V), atm_int(I,V), atm_int(H,V), 
+   atm_int(G,V), atm_int(F,V), atm_int(E,W), atm_int(D,W), 
+   atm_int(C,V), atm_int(B,V), atm_chr(K,X), atm_chr(J,X), 
+   atm_chr(I,Y), atm_chr(H,X), atm_chr(G,X), atm_chr(F,X), 
+   atm_chr(E,Z), atm_chr(D,Z), atm_chr(C,X), atm_chr(B,X), 
+   atm_bond(K,E,A1), atm_bond(J,K,A1), atm_bond(I,J,A1), atm_bond(H,I,A1), 
+   atm_bond(G,B,A1), atm_bond(F,G,A1), atm_bond(E,F,A1), atm_bond(D,H,A1), 
+   atm_bond(D,E,A1), atm_bond(C,D,A1), atm_bond(B,C,A1), lteq_e(N,B1), 
+   gteq_e(N,C1), lteq_h(O,D1), gteq_h(O,E1), lteq_hv(P,F1), 
+   gteq_hv(P,G1), connected(T,R), connected(S,R), connected(R,T), 
+   connected(R,S), connected(R,Q), connected(Q,R).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,L), 
+   lumo(A,M), logp(A,N), hansch_attr(A,O), benzene(A,P), 
+   ring_size_6(A,P), nitro(A,Q), atm_elm(K,R), atm_elm(J,R), 
+   atm_elm(I,S), atm_elm(H,S), atm_elm(G,T), atm_elm(F,T), 
+   atm_elm(E,T), atm_elm(D,T), atm_elm(C,T), atm_elm(B,T), 
+   atm_int(K,U), atm_int(J,U), atm_int(I,V), atm_int(H,V), 
+   atm_int(G,W), atm_int(F,W), atm_int(E,W), atm_int(D,W), 
+   atm_int(C,W), atm_int(B,W), atm_chr(K,X), atm_chr(J,X), 
+   atm_chr(I,Y), atm_chr(H,Y), atm_chr(G,Z), atm_chr(F,Z), 
+   atm_chr(E,Z), atm_chr(D,Z), atm_chr(C,Z), atm_chr(B,Z), 
+   atm_bond(G,I,A1), atm_bond(G,B,B1), atm_bond(F,J,A1), atm_bond(F,G,B1), 
+   atm_bond(E,K,A1), atm_bond(E,F,B1), atm_bond(D,E,B1), atm_bond(C,D,B1), 
+   atm_bond(B,H,A1), atm_bond(B,C,B1), lteq_e(M,C1), gteq_e(M,D1), 
+   lteq_h(N,E1), gteq_h(N,F1), lteq_hv(O,G1), gteq_hv(O,H1), 
+   connected(Q,P), connected(P,Q).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,M), 
+   lumo(A,N), logp(A,O), hansch_attr(A,P), benzene(A,Q), 
+   benzene(A,R), benzene(A,S), benzene(A,T), ring_size_6(A,Q), 
+   ring_size_6(A,R), ring_size_6(A,S), ring_size_6(A,T), nitro(A,U), 
+   anthracene(A,V), atm_elm(K,W), atm_elm(J,W), atm_elm(I,W), 
+   atm_elm(H,W), atm_elm(G,W), atm_elm(F,W), atm_elm(E,W), 
+   atm_elm(D,W), atm_elm(C,W), atm_elm(B,W), atm_int(K,X), 
+   atm_int(J,Y), atm_int(I,Z), atm_int(H,X), atm_int(G,X), 
+   atm_int(F,X), atm_int(E,Z), atm_int(D,Z), atm_int(C,X), 
+   atm_int(B,X), atm_chr(K,A1), atm_chr(J,B1), atm_chr(I,C1), 
+   atm_chr(H,A1), atm_chr(G,A1), atm_chr(F,D1), atm_chr(E,C1), 
+   atm_chr(D,C1), atm_chr(C,A1), atm_chr(B,A1), atm_bond(K,E,E1), 
+   atm_bond(J,K,E1), atm_bond(I,J,E1), atm_bond(H,I,E1), atm_bond(G,B,E1), 
+   atm_bond(F,G,E1), atm_bond(E,F,E1), atm_bond(D,H,E1), atm_bond(D,E,E1), 
+   atm_bond(C,D,E1), atm_bond(B,C,E1), lteq_e(N,F1), gteq_e(N,G1), 
+   lteq_h(O,H1), gteq_h(O,I1), lteq_hv(P,J1), gteq_hv(P,K1), 
+   connected(U,R), connected(T,S), connected(S,T), connected(S,R), 
+   connected(R,U), connected(R,S), connected(R,Q), connected(Q,R), 
+   member(S,V), member(R,V), member(Q,V).
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,L), 
+   lumo(A,M), logp(A,N), hansch_attr(A,O), benzene(A,P), 
+   ring_size_6(A,P), nitro(A,Q), atm_elm(K,R), atm_elm(J,R), 
+   atm_elm(I,R), atm_elm(H,R), atm_elm(G,S), atm_elm(F,S), 
+   atm_elm(E,S), atm_elm(D,S), atm_elm(C,S), atm_elm(B,S), 
+   atm_int(K,T), atm_int(J,T), atm_int(I,T), atm_int(H,T), 
+   atm_int(G,U), atm_int(F,U), atm_int(E,U), atm_int(D,U), 
+   atm_int(C,U), atm_int(B,U), atm_chr(K,V), atm_chr(J,V), 
+   atm_chr(I,V), atm_chr(H,V), atm_chr(G,W), atm_chr(F,W), 
+   atm_chr(E,W), atm_chr(D,W), atm_chr(C,W), atm_chr(B,W), 
+   atm_bond(G,B,X), atm_bond(F,G,X), atm_bond(E,K,Y), atm_bond(E,F,X), 
+   atm_bond(D,J,Y), atm_bond(D,E,X), atm_bond(C,I,Y), atm_bond(C,D,X), 
+   atm_bond(B,H,Y), atm_bond(B,C,X), lteq_e(M,Z), gteq_e(M,A1), 
+   lteq_h(N,B1), gteq_h(N,C1), lteq_hv(O,D1), gteq_hv(O,E1), 
+   connected(Q,P), connected(P,Q).
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]

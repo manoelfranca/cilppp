@@ -1,0 +1,1 @@
+~eastbound(A):-has_car(A;B),has_car(A;C),has_car(A;D),short(C),short(B),long(D),open_car(C),open_car(B),double(B),jagged(D),shape(D;rectangle),shape(C;u_shaped),shape(B;rectangle),wheels(D;2),wheels(C;2),wheels(B;2),load(D;nil;0),load(C;triangle;1),load(B;circle;1).

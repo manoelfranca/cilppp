@@ -1,0 +1,220 @@
+
+[bottom clause]
+active(A) :-
+   atm(A,B), atm(A,C), atm(A,D), atm(A,E), 
+   atm(A,F), atm(A,G), atm(A,H), atm(A,I), 
+   atm(A,J), atm(A,K), ind1(A,L), inda(A,L), 
+   lumo(A,M), logp(A,N), hansch_attr(A,O), benzene(A,P), 
+   hetero_aromatic_5_ring(A,Q), ring_size_6(A,P), ring_size_5(A,Q), nitro(A,R), 
+   methyl(A,S), atm_elm(K,T), atm_elm(J,U), atm_elm(I,T), 
+   atm_elm(H,U), atm_elm(G,T), atm_elm(F,T), atm_elm(E,T), 
+   atm_elm(D,T), atm_elm(C,T), atm_elm(B,T), atm_int(K,V), 
+   atm_int(J,W), atm_int(I,X), atm_int(H,W), atm_int(G,Y), 
+   atm_int(F,Y), atm_int(E,Z), atm_int(D,Z), atm_int(C,Y), 
+   atm_int(B,Y), atm_chr(K,A1), atm_chr(J,B1), atm_chr(I,C1), 
+   atm_chr(H,B1), atm_chr(G,D1), atm_chr(F,D1), atm_chr(E,E1), 
+   atm_chr(D,E1), atm_chr(C,D1), atm_chr(B,D1), atm_bond(J,I,F1), 
+   atm_bond(H,K,G1), atm_bond(H,I,F1), atm_bond(G,B,F1), atm_bond(F,G,F1), 
+   atm_bond(E,J,F1), atm_bond(E,F,F1), atm_bond(D,H,F1), atm_bond(D,E,F1), 
+   atm_bond(C,D,F1), atm_bond(B,C,F1), lteq_e(M,H1), gteq_e(M,I1), 
+   lteq_h(N,J1), gteq_h(N,K1), lteq_hv(O,L1), gteq_hv(O,M1), 
+   connected(S,Q), connected(R,Q), connected(Q,S), connected(Q,R), 
+   connected(Q,P), connected(P,Q).
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]
+
+[bottom clause]

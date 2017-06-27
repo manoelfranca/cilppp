@@ -1,0 +1,3 @@
+great_ne(dd1,z1).
+great_ne(y1,q1).
+great_ne(b1,u1).

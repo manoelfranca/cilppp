@@ -1,0 +1,10 @@
+great_ne(q1,ii1).
+great_ne(jj1,aa1).
+great_ne(u1,aa1).
+great_ne(k1,w1).
+great_ne(q1,hh1).
+great_ne(z1,dd1).
+great_ne(kk1,w1).
+great_ne(jj1,v1).
+great_ne(jj1,b1).
+great_ne(m1,v1).

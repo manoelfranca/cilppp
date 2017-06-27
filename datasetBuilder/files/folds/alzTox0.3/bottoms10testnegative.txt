@@ -1,0 +1,2468 @@
+
+[bottom clause]
+less_toxic(A,B) :-
+   x_subst(B,C,D), alk_groups(B,E), alk_groups(A,E), r_subst_1(B,F), 
+   r_subst_1(A,F), r_subst_2(B,G), r_subst_2(A,G), ring_substitutions(B,E), 
+   ring_substitutions(A,E), ring_subst_2(B,H), ring_subst_4(A,D), polar(H,I), 
+   polar(D,J), size(H,K), size(D,K), flex(H,L), 
+   flex(D,L), h_doner(H,M), h_doner(D,M), h_acceptor(H,N), 
+   h_acceptor(D,O), pi_doner(H,P), pi_doner(D,P), pi_acceptor(H,Q), 
+   pi_acceptor(D,Q), polarisable(H,R), polarisable(D,R), sigma(H,S), 
+   sigma(D,T), gt(E,U), great_polar(J,V), great_polar(J,W), 
+   great_polar(J,X), great_polar(J,I), great_polar(J,Y), great_polar(I,V), 
+   great_polar(I,W), great_polar(I,X), great_size(K,Z), great_h_acc(O,N), 
+   great_sigma(T,A1), great_sigma(T,B1), great_sigma(T,C1), great_sigma(T,S), 
+   great_sigma(T,D1), great_sigma(S,A1), great_sigma(S,B1), great_sigma(S,C1).
+[sat] [2]
+[less_toxic(cc1,g1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,D), r_subst_1(B,E), r_subst_1(A,F), 
+   r_subst_2(A,G), ring_substitutions(A,D), ring_subst_2(A,H), n_val(B,D), 
+   polar(H,I), size(H,J), flex(H,K), h_doner(H,L), 
+   h_acceptor(H,M), pi_doner(H,N), pi_acceptor(H,O), polarisable(H,P), 
+   sigma(H,Q), gt(D,C), great_polar(I,R), great_polar(I,S), 
+   great_polar(I,T), great_size(J,U), great_sigma(Q,V), great_sigma(Q,W), 
+   great_sigma(Q,X).
+[sat] [3]
+[less_toxic(t1,r1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,C), r_subst_1(B,D), r_subst_1(A,D), 
+   r_subst_2(B,E), r_subst_2(A,E), ring_substitutions(B,C), ring_substitutions(A,C), 
+   ring_subst_2(A,F), ring_subst_3(B,G), polar(G,H), polar(F,I), 
+   size(G,J), size(F,J), flex(G,K), flex(F,K), 
+   h_doner(G,L), h_doner(F,L), h_acceptor(G,M), h_acceptor(F,N), 
+   pi_doner(G,O), pi_doner(F,O), pi_acceptor(G,P), pi_acceptor(F,P), 
+   polarisable(G,Q), polarisable(F,R), sigma(G,S), sigma(F,T), 
+   gt(C,U), great_polar(I,V), great_polar(I,W), great_polar(I,X), 
+   great_polar(I,H), great_polar(I,Y), great_polar(H,V), great_polar(H,W), 
+   great_polar(H,X), great_size(J,Z), great_h_acc(N,M), great_polari(Q,R), 
+   great_sigma(T,A1), great_sigma(T,B1), great_sigma(T,C1), great_sigma(T,S), 
+   great_sigma(T,D1), great_sigma(S,A1), great_sigma(S,B1), great_sigma(S,C1).
+[sat] [4]
+[less_toxic(t1,g1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,D), r_subst_1(B,E), r_subst_1(A,F), 
+   r_subst_2(A,G), ring_substitutions(A,D), ring_subst_2(A,H), n_val(B,D), 
+   polar(H,I), size(H,J), flex(H,K), h_doner(H,L), 
+   h_acceptor(H,M), pi_doner(H,N), pi_acceptor(H,O), polarisable(H,P), 
+   sigma(H,Q), gt(D,C), great_polar(I,R), great_polar(I,S), 
+   great_polar(I,T), great_polar(I,U), great_polar(I,V), great_size(J,W), 
+   great_h_acc(M,X), great_sigma(Q,Y), great_sigma(Q,Z), great_sigma(Q,A1), 
+   great_sigma(Q,B1), great_sigma(Q,C1).
+[sat] [5]
+[less_toxic(p1,cc1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,C), r_subst_1(B,D), r_subst_1(A,D), 
+   r_subst_2(B,E), r_subst_2(A,E), ring_substitutions(B,C), ring_substitutions(A,F), 
+   ring_subst_2(B,G), polar(G,H), size(G,I), flex(G,J), 
+   h_doner(G,K), h_acceptor(G,L), pi_doner(G,M), pi_acceptor(G,N), 
+   polarisable(G,O), sigma(G,P), gt(C,F), great_polar(H,Q), 
+   great_polar(H,R), great_polar(H,S), great_size(I,T), great_sigma(P,U), 
+   great_sigma(P,V), great_sigma(P,W).
+[sat] [6]
+[less_toxic(a1,w1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,D), r_subst_1(B,E), r_subst_1(A,F), 
+   r_subst_2(B,G), ring_substitutions(B,C), ring_subst_2(B,H), polar(H,I), 
+   size(H,J), flex(H,K), h_doner(H,L), h_acceptor(H,M), 
+   pi_doner(H,N), pi_acceptor(H,O), polarisable(H,P), sigma(H,Q), 
+   gt(C,D), great_polar(I,R), great_polar(I,S), great_size(J,T), 
+   great_size(J,U), great_flex(K,V), great_h_acc(M,W), great_pi_don(N,X), 
+   great_polari(P,Y), great_sigma(Q,Z).
+[sat] [7]
+[less_toxic(i1,x1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,D), r_subst_1(B,E), r_subst_1(A,F), 
+   r_subst_2(B,G), ring_substitutions(B,C), ring_subst_3(B,H), polar(H,I), 
+   size(H,J), flex(H,K), h_doner(H,L), h_acceptor(H,M), 
+   pi_doner(H,N), pi_acceptor(H,O), polarisable(H,P), sigma(H,Q), 
+   gt(D,R), gt(D,C), gt(D,S), gt(C,R), 
+   gt(S,R), gt(S,C), great_polar(I,T), great_polar(I,U), 
+   great_size(J,V), great_size(J,W), great_flex(K,X), great_h_acc(M,Y), 
+   great_pi_don(N,Z), great_polari(P,A1), great_sigma(Q,B1).
+[sat] [8]
+[less_toxic(p1,s1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,C), r_subst_1(B,D), r_subst_1(A,D), 
+   r_subst_2(B,E), r_subst_2(A,E), ring_substitutions(B,C), ring_substitutions(A,F), 
+   ring_subst_4(B,G), polar(G,H), size(G,I), flex(G,J), 
+   h_doner(G,K), h_acceptor(G,L), pi_doner(G,M), pi_acceptor(G,N), 
+   polarisable(G,O), sigma(G,P), gt(C,F), great_polar(H,Q), 
+   great_polar(H,R), great_polar(H,S), great_size(I,T), great_polari(O,U), 
+   great_sigma(P,V), great_sigma(P,W), great_sigma(P,X).
+[sat] [9]
+[less_toxic(c1,g1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   x_subst(A,C,D), alk_groups(B,E), alk_groups(A,E), r_subst_1(B,F), 
+   r_subst_1(A,F), n_val(B,G), polar(D,H), size(D,I), 
+   flex(D,J), h_doner(D,K), h_acceptor(D,L), pi_doner(D,M), 
+   pi_acceptor(D,N), polarisable(D,O), sigma(D,P), gt(G,E), 
+   great_polar(H,Q), great_polar(H,R), great_polar(H,S), great_size(I,T), 
+   great_polari(O,U), great_sigma(P,V), great_sigma(P,W), great_sigma(P,X).
+[sat] [10]
+[less_toxic(w1,k1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,D), r_subst_1(B,E), r_subst_1(A,F), 
+   r_subst_2(B,G), r_subst_2(A,G), ring_substitutions(B,H), ring_substitutions(A,D), 
+   ring_subst_2(A,I), polar(I,J), size(I,K), flex(I,L), 
+   h_doner(I,M), h_acceptor(I,N), pi_doner(I,O), pi_acceptor(I,P), 
+   polarisable(I,Q), sigma(I,R), gt(D,H), gt(C,H), 
+   gt(C,D), great_polar(J,S), great_polar(J,T), great_size(K,U), 
+   great_size(K,V), great_flex(L,W), great_h_acc(N,X), great_pi_don(O,Y), 
+   great_polari(Q,Z), great_sigma(R,A1).
+[sat] [11]
+[less_toxic(cc1,kk1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   x_subst(B,C,D), alk_groups(B,E), alk_groups(A,E), r_subst_1(B,F), 
+   r_subst_1(A,F), r_subst_2(B,G), r_subst_2(A,G), ring_substitutions(B,E), 
+   ring_substitutions(A,E), ring_subst_2(B,H), ring_subst_2(A,H), polar(H,I), 
+   polar(D,J), size(H,K), size(D,K), flex(H,L), 
+   flex(D,L), h_doner(H,M), h_doner(D,M), h_acceptor(H,N), 
+   h_acceptor(D,O), pi_doner(H,P), pi_doner(D,P), pi_acceptor(H,Q), 
+   pi_acceptor(D,Q), polarisable(H,R), polarisable(D,R), sigma(H,S), 
+   sigma(D,T), gt(E,U), great_polar(J,V), great_polar(J,W), 
+   great_polar(J,X), great_polar(J,I), great_polar(J,Y), great_polar(I,V), 
+   great_polar(I,W), great_polar(I,X), great_size(K,Z), great_h_acc(O,N), 
+   great_sigma(T,A1), great_sigma(T,B1), great_sigma(T,C1), great_sigma(T,S), 
+   great_sigma(T,D1), great_sigma(S,A1), great_sigma(S,B1), great_sigma(S,C1).
+[sat] [12]
+[less_toxic(a1,k1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,D), r_subst_1(B,E), r_subst_1(A,F), 
+   r_subst_2(B,G), ring_substitutions(B,D), gt(C,D), gt(C,H), 
+   gt(H,D).
+[sat] [13]
+[less_toxic(f1,p1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   x_subst(A,C,D), alk_groups(B,E), alk_groups(A,F), r_subst_1(B,G), 
+   r_subst_1(A,H), r_subst_2(B,I), ring_substitutions(B,F), polar(D,J), 
+   size(D,K), flex(D,L), h_doner(D,M), h_acceptor(D,N), 
+   pi_doner(D,O), pi_acceptor(D,P), polarisable(D,Q), sigma(D,R), 
+   gt(E,F), great_polar(J,S), great_polar(J,T), great_polar(J,U), 
+   great_polar(J,V), great_polar(J,W), great_size(K,X), great_h_acc(N,Y), 
+   great_sigma(R,Z), great_sigma(R,A1), great_sigma(R,B1), great_sigma(R,C1), 
+   great_sigma(R,D1).
+[sat] [14]
+[less_toxic(l1,hh1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   x_subst(B,C,D), alk_groups(B,E), alk_groups(A,F), r_subst_1(B,G), 
+   r_subst_1(A,H), r_subst_2(B,I), r_subst_2(A,J), r_subst_3(A,K), 
+   ring_substitutions(B,L), ring_substitutions(A,L), polar(D,M), size(D,N), 
+   flex(D,O), h_doner(D,P), h_acceptor(D,Q), pi_doner(D,R), 
+   pi_acceptor(D,S), polarisable(D,T), sigma(D,U), gt(F,L), 
+   gt(F,E), gt(F,V), gt(E,L), gt(V,L), 
+   gt(V,E), great_polar(M,W), great_polar(M,X), great_polar(M,Y), 
+   great_size(N,Z), great_polari(T,A1), great_sigma(U,B1), great_sigma(U,C1), 
+   great_sigma(U,D1).
+[sat] [15]
+[less_toxic(h1,w1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,C), r_subst_1(B,D), r_subst_1(A,D), 
+   r_subst_2(B,E), ring_substitutions(B,C), ring_subst_2(B,F), polar(F,G), 
+   size(F,H), flex(F,I), h_doner(F,J), h_acceptor(F,K), 
+   pi_doner(F,L), pi_acceptor(F,M), polarisable(F,N), sigma(F,O), 
+   gt(C,P), great_polar(G,Q), great_polar(G,R), great_size(H,S), 
+   great_size(H,T), great_flex(I,U), great_h_acc(K,V), great_pi_don(L,W), 
+   great_polari(N,X), great_sigma(O,Y).
+[sat] [16]
+[less_toxic(f1,e1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   x_subst(B,C,D), x_subst(A,C,E), alk_groups(B,F), alk_groups(A,F), 
+   r_subst_1(B,G), r_subst_1(A,G), polar(E,H), polar(D,I), 
+   size(E,J), size(D,J), flex(E,K), flex(D,K), 
+   h_doner(E,L), h_doner(D,L), h_acceptor(E,M), h_acceptor(D,N), 
+   pi_doner(E,O), pi_doner(D,O), pi_acceptor(E,P), pi_acceptor(D,P), 
+   polarisable(E,Q), polarisable(D,Q), sigma(E,R), sigma(D,S), 
+   great_polar(I,T), great_polar(I,U), great_polar(I,V), great_polar(H,T), 
+   great_polar(H,U), great_polar(H,V), great_polar(H,I), great_polar(H,W), 
+   great_size(J,X), great_h_acc(M,N), great_sigma(S,Y), great_sigma(S,Z), 
+   great_sigma(S,A1), great_sigma(R,Y), great_sigma(R,Z), great_sigma(R,A1), 
+   great_sigma(R,S), great_sigma(R,B1).
+[sat] [17]
+[less_toxic(dd1,kk1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   x_subst(B,C,D), alk_groups(B,E), alk_groups(A,E), r_subst_1(B,F), 
+   r_subst_1(A,F), r_subst_2(B,G), r_subst_2(A,G), ring_substitutions(B,E), 
+   ring_substitutions(A,E), ring_subst_2(B,H), ring_subst_3(A,H), polar(H,I), 
+   polar(D,J), size(H,K), size(D,K), flex(H,L), 
+   flex(D,L), h_doner(H,M), h_doner(D,M), h_acceptor(H,N), 
+   h_acceptor(D,O), pi_doner(H,P), pi_doner(D,P), pi_acceptor(H,Q), 
+   pi_acceptor(D,Q), polarisable(H,R), polarisable(D,R), sigma(H,S), 
+   sigma(D,T), gt(E,U), great_polar(J,V), great_polar(J,W), 
+   great_polar(J,X), great_polar(J,I), great_polar(J,Y), great_polar(I,V), 
+   great_polar(I,W), great_polar(I,X), great_size(K,Z), great_h_acc(O,N), 
+   great_sigma(T,A1), great_sigma(T,B1), great_sigma(T,C1), great_sigma(T,S), 
+   great_sigma(T,D1), great_sigma(S,A1), great_sigma(S,B1), great_sigma(S,C1).
+[sat] [18]
+[less_toxic(cc1,bb1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,C), r_subst_1(B,D), r_subst_1(A,D), 
+   r_subst_2(B,E), r_subst_2(A,E), ring_substitutions(B,C), ring_substitutions(A,C), 
+   ring_subst_2(A,F), ring_subst_4(B,G), polar(G,H), polar(F,I), 
+   size(G,J), size(F,J), flex(G,K), flex(F,K), 
+   h_doner(G,L), h_doner(F,L), h_acceptor(G,M), h_acceptor(F,M), 
+   pi_doner(G,N), pi_doner(F,N), pi_acceptor(G,O), pi_acceptor(F,O), 
+   polarisable(G,P), polarisable(F,Q), sigma(G,R), sigma(F,S), 
+   gt(C,T), great_polar(I,H), great_polar(I,U), great_polar(I,V), 
+   great_size(J,W), great_polari(P,Q), great_sigma(S,R), great_sigma(S,X), 
+   great_sigma(S,Y).
+[sat] [19]
+[less_toxic(c1,m1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   x_subst(A,C,D), alk_groups(B,E), alk_groups(A,F), r_subst_1(B,G), 
+   r_subst_1(A,H), r_subst_2(B,I), r_subst_3(B,J), ring_substitutions(B,F), 
+   polar(D,K), size(D,L), flex(D,M), h_doner(D,N), 
+   h_acceptor(D,O), pi_doner(D,P), pi_acceptor(D,Q), polarisable(D,R), 
+   sigma(D,S), gt(E,F), gt(E,T), gt(E,U), 
+   gt(E,V), gt(V,F), gt(V,T), gt(V,U), 
+   gt(U,F), gt(U,T), gt(T,F), great_polar(K,W), 
+   great_polar(K,X), great_polar(K,Y), great_size(L,Z), great_polari(R,A1), 
+   great_sigma(S,B1), great_sigma(S,C1), great_sigma(S,D1).
+[sat] [20]
+[less_toxic(p1,ll1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   x_subst(B,C,D), alk_groups(B,E), alk_groups(A,E), r_subst_1(B,F), 
+   r_subst_1(A,F), r_subst_2(B,G), r_subst_2(A,G), ring_substitutions(B,H), 
+   ring_substitutions(A,H), polar(D,I), size(D,J), flex(D,K), 
+   h_doner(D,L), h_acceptor(D,M), pi_doner(D,N), pi_acceptor(D,O), 
+   polarisable(D,P), sigma(D,Q), gt(E,H), great_polar(I,R), 
+   great_polar(I,S), great_polar(I,T), great_size(J,U), great_sigma(Q,V), 
+   great_sigma(Q,W), great_sigma(Q,X).
+[sat] [21]
+[less_toxic(jj1,bb1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   x_subst(A,C,D), alk_groups(B,E), alk_groups(A,E), r_subst_1(B,F), 
+   r_subst_1(A,F), r_subst_2(B,G), r_subst_2(A,G), ring_substitutions(B,E), 
+   ring_substitutions(A,H), ring_subst_4(B,I), polar(I,J), polar(D,K), 
+   size(I,L), size(D,L), flex(I,M), flex(D,M), 
+   h_doner(I,N), h_doner(D,N), h_acceptor(I,O), h_acceptor(D,P), 
+   pi_doner(I,Q), pi_doner(D,Q), pi_acceptor(I,R), pi_acceptor(D,R), 
+   polarisable(I,S), polarisable(D,T), sigma(I,U), sigma(D,V), 
+   gt(E,H), great_polar(K,J), great_polar(K,W), great_polar(K,X), 
+   great_polar(K,Y), great_polar(K,Z), great_size(L,A1), great_h_acc(P,O), 
+   great_polari(S,T), great_sigma(V,U), great_sigma(V,B1), great_sigma(V,C1), 
+   great_sigma(V,D1), great_sigma(V,E1).
+[sat] [22]
+[less_toxic(z1,b1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   x_subst(B,C,D), alk_groups(B,E), alk_groups(A,F), r_subst_1(B,G), 
+   r_subst_1(A,H), r_subst_2(A,I), ring_substitutions(A,F), ring_subst_2(A,J), 
+   polar(J,K), polar(D,L), size(J,M), size(D,M), 
+   flex(J,N), flex(D,N), h_doner(J,O), h_doner(D,O), 
+   h_acceptor(J,P), h_acceptor(D,P), pi_doner(J,Q), pi_doner(D,Q), 
+   pi_acceptor(J,R), pi_acceptor(D,R), polarisable(J,S), polarisable(D,S), 
+   sigma(J,T), sigma(D,U), gt(F,E), great_polar(L,K), 
+   great_polar(L,V), great_polar(L,W), great_size(M,X), great_polari(S,Y), 
+   great_sigma(U,T), great_sigma(U,Z), great_sigma(U,A1).
+[sat] [23]
+[less_toxic(b1,g1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   x_subst(A,C,D), alk_groups(B,E), alk_groups(A,E), r_subst_1(B,F), 
+   r_subst_1(A,F), n_val(B,G), polar(D,H), size(D,I), 
+   flex(D,J), h_doner(D,K), h_acceptor(D,L), pi_doner(D,M), 
+   pi_acceptor(D,N), polarisable(D,O), sigma(D,P), gt(G,E), 
+   great_polar(H,Q), great_polar(H,R), great_polar(H,S), great_size(I,T), 
+   great_polari(O,U), great_sigma(P,V), great_sigma(P,W), great_sigma(P,X).
+[sat] [24]
+[less_toxic(u1,r1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,C), r_subst_1(B,D), r_subst_1(A,D), 
+   r_subst_2(B,E), r_subst_2(A,E), ring_substitutions(B,C), ring_substitutions(A,C), 
+   ring_subst_3(B,F), ring_subst_3(A,G), polar(G,H), polar(F,I), 
+   size(G,J), size(F,J), flex(G,K), flex(F,K), 
+   h_doner(G,L), h_doner(F,L), h_acceptor(G,M), h_acceptor(F,N), 
+   pi_doner(G,O), pi_doner(F,O), pi_acceptor(G,P), pi_acceptor(F,P), 
+   polarisable(G,Q), polarisable(F,R), sigma(G,S), sigma(F,T), 
+   gt(C,U), great_polar(I,V), great_polar(I,W), great_polar(I,X), 
+   great_polar(H,V), great_polar(H,W), great_polar(H,X), great_polar(H,I), 
+   great_polar(H,Y), great_size(J,Z), great_h_acc(M,N), great_polari(R,Q), 
+   great_sigma(T,A1), great_sigma(T,B1), great_sigma(T,C1), great_sigma(S,A1), 
+   great_sigma(S,B1), great_sigma(S,C1), great_sigma(S,T), great_sigma(S,D1).
+[sat] [25]
+[less_toxic(e1,cc1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   x_subst(A,C,D), alk_groups(B,E), alk_groups(A,F), r_subst_1(B,G), 
+   r_subst_1(A,H), r_subst_2(B,I), ring_substitutions(B,E), ring_subst_2(B,D), 
+   polar(D,J), size(D,K), flex(D,L), h_doner(D,M), 
+   h_acceptor(D,N), pi_doner(D,O), pi_acceptor(D,P), polarisable(D,Q), 
+   sigma(D,R), gt(E,F), great_polar(J,S), great_polar(J,T), 
+   great_polar(J,U), great_size(K,V), great_sigma(R,W), great_sigma(R,X), 
+   great_sigma(R,Y).
+[sat] [26]
+[less_toxic(t1,hh1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   x_subst(B,C,D), alk_groups(B,E), alk_groups(A,E), r_subst_1(B,F), 
+   r_subst_1(A,F), r_subst_2(B,G), r_subst_2(A,G), ring_substitutions(B,H), 
+   ring_substitutions(A,E), ring_subst_2(A,I), polar(I,J), polar(D,K), 
+   size(I,L), size(D,L), flex(I,M), flex(D,M), 
+   h_doner(I,N), h_doner(D,N), h_acceptor(I,O), h_acceptor(D,P), 
+   pi_doner(I,Q), pi_doner(D,Q), pi_acceptor(I,R), pi_acceptor(D,R), 
+   polarisable(I,S), polarisable(D,T), sigma(I,U), sigma(D,V), 
+   gt(E,H), great_polar(K,W), great_polar(K,X), great_polar(K,Y), 
+   great_polar(J,W), great_polar(J,X), great_polar(J,Y), great_polar(J,K), 
+   great_polar(J,Z), great_size(L,A1), great_h_acc(O,P), great_polari(T,S), 
+   great_sigma(V,B1), great_sigma(V,C1), great_sigma(V,D1), great_sigma(U,B1), 
+   great_sigma(U,C1), great_sigma(U,D1), great_sigma(U,V), great_sigma(U,E1).
+[sat] [27]
+[less_toxic(e1,w1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   x_subst(A,C,D), alk_groups(B,E), alk_groups(A,F), r_subst_1(B,G), 
+   r_subst_1(A,H), r_subst_2(B,I), ring_substitutions(B,E), ring_subst_2(B,J), 
+   polar(J,K), polar(D,L), size(J,M), size(D,N), 
+   flex(J,O), flex(D,P), h_doner(J,Q), h_doner(D,Q), 
+   h_acceptor(J,R), h_acceptor(D,S), pi_doner(J,T), pi_doner(D,U), 
+   pi_acceptor(J,V), pi_acceptor(D,V), polarisable(J,W), polarisable(D,X), 
+   sigma(J,Y), sigma(D,Z), gt(E,F), great_polar(L,A1), 
+   great_polar(L,B1), great_polar(L,K), great_polar(K,A1), great_polar(K,B1), 
+   great_size(N,C1), great_size(M,C1), great_size(M,N), great_flex(O,P), 
+   great_h_acc(R,S), great_pi_don(T,U), great_polari(W,X), great_sigma(Z,D1), 
+   great_sigma(Z,Y), great_sigma(Z,E1), great_sigma(Y,D1).
+[sat] [28]
+[less_toxic(cc1,ee1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,C), r_subst_1(B,D), r_subst_1(A,D), 
+   r_subst_2(B,E), r_subst_2(A,E), ring_substitutions(B,C), ring_substitutions(A,C), 
+   ring_subst_2(A,F), ring_subst_4(B,F), polar(F,G), size(F,H), 
+   flex(F,I), h_doner(F,J), h_acceptor(F,K), pi_doner(F,L), 
+   pi_acceptor(F,M), polarisable(F,N), sigma(F,O), gt(C,P), 
+   great_polar(G,Q), great_polar(G,R), great_polar(G,S), great_size(H,T), 
+   great_sigma(O,U), great_sigma(O,V), great_sigma(O,W).
+[sat] [29]
+[less_toxic(dd1,q1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,C), r_subst_1(B,D), r_subst_1(A,D), 
+   r_subst_2(B,E), r_subst_2(A,E), ring_substitutions(B,C), ring_substitutions(A,C), 
+   ring_subst_2(B,F), ring_subst_3(A,G), polar(G,H), polar(F,H), 
+   size(G,I), size(F,I), flex(G,J), flex(F,J), 
+   h_doner(G,K), h_doner(F,K), h_acceptor(G,L), h_acceptor(F,L), 
+   pi_doner(G,M), pi_doner(F,M), pi_acceptor(G,N), pi_acceptor(F,N), 
+   polarisable(G,O), polarisable(F,P), sigma(G,Q), sigma(F,Q), 
+   gt(C,R), great_polar(H,S), great_polar(H,T), great_polar(H,U), 
+   great_size(I,V), great_polari(P,O), great_sigma(Q,W), great_sigma(Q,X), 
+   great_sigma(Q,Y).
+[sat] [30]
+[less_toxic(d1,l1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   x_subst(A,C,D), alk_groups(B,E), alk_groups(A,F), r_subst_1(B,G), 
+   r_subst_1(A,H), r_subst_2(B,I), r_subst_3(B,J), ring_substitutions(B,F), 
+   polar(D,K), size(D,L), flex(D,M), h_doner(D,N), 
+   h_acceptor(D,O), pi_doner(D,P), pi_acceptor(D,Q), polarisable(D,R), 
+   sigma(D,S), gt(E,F), gt(E,T), gt(E,U), 
+   gt(U,F), gt(U,T), gt(T,F), great_polar(K,V), 
+   great_polar(K,W), great_size(L,X), great_size(L,Y), great_flex(M,Z), 
+   great_h_acc(O,A1), great_pi_don(P,B1), great_polari(R,C1), great_sigma(S,D1).
+[sat] [31]
+[less_toxic(d1,k1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   x_subst(A,C,D), alk_groups(B,E), alk_groups(A,F), r_subst_1(B,G), 
+   r_subst_1(A,H), r_subst_2(B,I), ring_substitutions(B,F), polar(D,J), 
+   size(D,K), flex(D,L), h_doner(D,M), h_acceptor(D,N), 
+   pi_doner(D,O), pi_acceptor(D,P), polarisable(D,Q), sigma(D,R), 
+   gt(E,F), gt(E,S), gt(S,F), great_polar(J,T), 
+   great_polar(J,U), great_size(K,V), great_size(K,W), great_flex(L,X), 
+   great_h_acc(N,Y), great_pi_don(O,Z), great_polari(Q,A1), great_sigma(R,B1).
+[sat] [32]
+[less_toxic(dd1,o1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,D), r_subst_1(B,E), r_subst_1(A,F), 
+   r_subst_2(B,G), r_subst_2(A,H), r_subst_3(B,I), ring_substitutions(B,D), 
+   ring_substitutions(A,D), ring_subst_3(B,J), ring_subst_3(A,K), polar(K,L), 
+   polar(J,M), size(K,N), size(J,N), flex(K,O), 
+   flex(J,O), h_doner(K,P), h_doner(J,P), h_acceptor(K,Q), 
+   h_acceptor(J,R), pi_doner(K,S), pi_doner(J,S), pi_acceptor(K,T), 
+   pi_acceptor(J,T), polarisable(K,U), polarisable(J,U), sigma(K,V), 
+   sigma(J,W), gt(D,X), gt(C,X), gt(C,D), 
+   gt(C,Y), gt(C,Z), gt(Z,X), gt(Z,D), 
+   gt(Z,Y), gt(Y,X), gt(Y,D), great_polar(M,A1), 
+   great_polar(M,B1), great_polar(M,C1), great_polar(M,L), great_polar(M,D1), 
+   great_polar(L,A1), great_polar(L,B1), great_polar(L,C1), great_size(N,E1), 
+   great_h_acc(R,Q), great_sigma(W,F1), great_sigma(W,G1), great_sigma(W,H1), 
+   great_sigma(W,V), great_sigma(W,I1), great_sigma(V,F1), great_sigma(V,G1), 
+   great_sigma(V,H1).
+[sat] [33]
+[less_toxic(e1,ll1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   x_subst(B,C,D), x_subst(A,C,D), alk_groups(B,E), alk_groups(A,F), 
+   r_subst_1(B,G), r_subst_1(A,H), r_subst_2(B,I), ring_substitutions(B,F), 
+   polar(D,J), size(D,K), flex(D,L), h_doner(D,M), 
+   h_acceptor(D,N), pi_doner(D,O), pi_acceptor(D,P), polarisable(D,Q), 
+   sigma(D,R), gt(E,F), great_polar(J,S), great_polar(J,T), 
+   great_polar(J,U), great_size(K,V), great_sigma(R,W), great_sigma(R,X), 
+   great_sigma(R,Y).
+[sat] [34]
+[less_toxic(u1,o1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,D), r_subst_1(B,E), r_subst_1(A,F), 
+   r_subst_2(B,G), r_subst_2(A,H), r_subst_3(B,I), ring_substitutions(B,D), 
+   ring_substitutions(A,D), ring_subst_3(B,J), ring_subst_3(A,J), polar(J,K), 
+   size(J,L), flex(J,M), h_doner(J,N), h_acceptor(J,O), 
+   pi_doner(J,P), pi_acceptor(J,Q), polarisable(J,R), sigma(J,S), 
+   gt(D,T), gt(C,T), gt(C,D), gt(C,U), 
+   gt(C,V), gt(V,T), gt(V,D), gt(V,U), 
+   gt(U,T), gt(U,D), great_polar(K,W), great_polar(K,X), 
+   great_polar(K,Y), great_polar(K,Z), great_polar(K,A1), great_size(L,B1), 
+   great_h_acc(O,C1), great_sigma(S,D1), great_sigma(S,E1), great_sigma(S,F1), 
+   great_sigma(S,G1), great_sigma(S,H1).
+[sat] [35]
+[less_toxic(aa1,ee1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,C), r_subst_1(B,D), r_subst_1(A,D), 
+   r_subst_2(B,E), r_subst_2(A,E), ring_substitutions(B,C), ring_substitutions(A,C), 
+   ring_subst_3(A,F), ring_subst_4(B,G), polar(G,H), polar(F,I), 
+   size(G,J), size(F,J), flex(G,K), flex(F,K), 
+   h_doner(G,L), h_doner(F,L), h_acceptor(G,M), h_acceptor(F,M), 
+   pi_doner(G,N), pi_doner(F,N), pi_acceptor(G,O), pi_acceptor(F,O), 
+   polarisable(G,P), polarisable(F,Q), sigma(G,R), sigma(F,S), 
+   gt(C,T), great_polar(H,I), great_polar(H,U), great_polar(H,V), 
+   great_size(J,W), great_polari(Q,P), great_sigma(R,S), great_sigma(R,X), 
+   great_sigma(R,Y).
+[sat] [36]
+[less_toxic(z1,m1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,D), r_subst_1(B,E), r_subst_1(A,F), 
+   r_subst_2(B,G), r_subst_2(A,H), r_subst_3(B,I), ring_substitutions(B,J), 
+   ring_substitutions(A,D), ring_subst_2(A,K), polar(K,L), size(K,M), 
+   flex(K,N), h_doner(K,O), h_acceptor(K,P), pi_doner(K,Q), 
+   pi_acceptor(K,R), polarisable(K,S), sigma(K,T), gt(D,J), 
+   gt(C,J), gt(C,D), gt(C,U), gt(C,V), 
+   gt(V,J), gt(V,D), gt(V,U), gt(U,J), 
+   gt(U,D), great_size(M,W), great_polari(S,X).
+[sat] [37]
+[less_toxic(i1,ee1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,D), r_subst_1(B,E), r_subst_1(A,F), 
+   r_subst_2(B,G), ring_substitutions(B,C), ring_subst_4(B,H), polar(H,I), 
+   size(H,J), flex(H,K), h_doner(H,L), h_acceptor(H,M), 
+   pi_doner(H,N), pi_acceptor(H,O), polarisable(H,P), sigma(H,Q), 
+   gt(D,R), gt(D,C), gt(D,S), gt(C,R), 
+   gt(S,R), gt(S,C), great_polar(I,T), great_polar(I,U), 
+   great_polar(I,V), great_size(J,W), great_sigma(Q,X), great_sigma(Q,Y), 
+   great_sigma(Q,Z).
+[sat] [38]
+[less_toxic(p1,e1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   x_subst(B,C,D), alk_groups(B,E), alk_groups(A,F), r_subst_1(B,G), 
+   r_subst_1(A,H), r_subst_2(A,I), ring_substitutions(A,E), polar(D,J), 
+   size(D,K), flex(D,L), h_doner(D,M), h_acceptor(D,N), 
+   pi_doner(D,O), pi_acceptor(D,P), polarisable(D,Q), sigma(D,R), 
+   gt(F,E), great_polar(J,S), great_polar(J,T), great_polar(J,U), 
+   great_size(K,V), great_sigma(R,W), great_sigma(R,X), great_sigma(R,Y).
+[sat] [39]
+[less_toxic(u1,w1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,C), r_subst_1(B,D), r_subst_1(A,D), 
+   r_subst_2(B,E), r_subst_2(A,E), ring_substitutions(B,C), ring_substitutions(A,C), 
+   ring_subst_2(B,F), ring_subst_3(A,G), polar(G,H), polar(F,I), 
+   size(G,J), size(F,K), flex(G,L), flex(F,M), 
+   h_doner(G,N), h_doner(F,N), h_acceptor(G,O), h_acceptor(F,O), 
+   pi_doner(G,P), pi_doner(F,Q), pi_acceptor(G,R), pi_acceptor(F,R), 
+   polarisable(G,S), polarisable(F,T), sigma(G,U), sigma(F,V), 
+   gt(C,W), great_polar(I,X), great_polar(I,Y), great_polar(H,X), 
+   great_polar(H,Y), great_polar(H,I), great_polar(H,Z), great_polar(H,A1), 
+   great_size(K,B1), great_size(K,J), great_size(J,B1), great_flex(M,L), 
+   great_h_acc(O,C1), great_pi_don(Q,P), great_polari(T,S), great_sigma(V,D1), 
+   great_sigma(U,D1), great_sigma(U,V), great_sigma(U,E1), great_sigma(U,F1), 
+   great_sigma(U,G1).
+[sat] [40]
+[less_toxic(i1,s1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,D), r_subst_1(B,E), r_subst_1(A,F), 
+   r_subst_2(B,G), ring_substitutions(B,C), ring_subst_4(B,H), polar(H,I), 
+   size(H,J), flex(H,K), h_doner(H,L), h_acceptor(H,M), 
+   pi_doner(H,N), pi_acceptor(H,O), polarisable(H,P), sigma(H,Q), 
+   gt(D,R), gt(D,C), gt(D,S), gt(C,R), 
+   gt(S,R), gt(S,C), great_polar(I,T), great_polar(I,U), 
+   great_polar(I,V), great_size(J,W), great_polari(P,X), great_sigma(Q,Y), 
+   great_sigma(Q,Z), great_sigma(Q,A1).
+[sat] [41]
+[less_toxic(aa1,w1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,C), r_subst_1(B,D), r_subst_1(A,D), 
+   r_subst_2(B,E), r_subst_2(A,E), ring_substitutions(B,C), ring_substitutions(A,C), 
+   ring_subst_2(B,F), ring_subst_3(A,G), polar(G,H), polar(F,I), 
+   size(G,J), size(F,K), flex(G,L), flex(F,M), 
+   h_doner(G,N), h_doner(F,N), h_acceptor(G,O), h_acceptor(F,P), 
+   pi_doner(G,Q), pi_doner(F,R), pi_acceptor(G,S), pi_acceptor(F,S), 
+   polarisable(G,T), polarisable(F,T), sigma(G,U), sigma(F,V), 
+   gt(C,W), great_polar(I,H), great_polar(I,X), great_size(K,Y), 
+   great_size(K,J), great_size(J,Y), great_flex(M,L), great_h_acc(P,O), 
+   great_pi_don(R,Q), great_polari(T,Z), great_sigma(V,U).
+[sat] [42]
+[less_toxic(cc1,q1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,C), r_subst_1(B,D), r_subst_1(A,D), 
+   r_subst_2(B,E), r_subst_2(A,E), ring_substitutions(B,C), ring_substitutions(A,C), 
+   ring_subst_2(B,F), ring_subst_2(A,G), polar(G,H), polar(F,H), 
+   size(G,I), size(F,I), flex(G,J), flex(F,J), 
+   h_doner(G,K), h_doner(F,K), h_acceptor(G,L), h_acceptor(F,L), 
+   pi_doner(G,M), pi_doner(F,M), pi_acceptor(G,N), pi_acceptor(F,N), 
+   polarisable(G,O), polarisable(F,P), sigma(G,Q), sigma(F,Q), 
+   gt(C,R), great_polar(H,S), great_polar(H,T), great_polar(H,U), 
+   great_size(I,V), great_polari(P,O), great_sigma(Q,W), great_sigma(Q,X), 
+   great_sigma(Q,Y).
+[sat] [43]
+[less_toxic(h1,ii1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   x_subst(B,C,D), alk_groups(B,E), alk_groups(A,E), r_subst_1(B,F), 
+   r_subst_1(A,F), r_subst_2(B,G), ring_substitutions(B,E), ring_subst_4(B,H), 
+   polar(H,I), polar(D,J), size(H,K), size(D,K), 
+   flex(H,L), flex(D,L), h_doner(H,M), h_doner(D,M), 
+   h_acceptor(H,N), h_acceptor(D,O), pi_doner(H,P), pi_doner(D,P), 
+   pi_acceptor(H,Q), pi_acceptor(D,Q), polarisable(H,R), polarisable(D,S), 
+   sigma(H,T), sigma(D,U), gt(E,V), great_polar(J,W), 
+   great_polar(J,X), great_polar(J,Y), great_polar(I,W), great_polar(I,X), 
+   great_polar(I,Y), great_polar(I,J), great_polar(I,Z), great_size(K,A1), 
+   great_h_acc(N,O), great_polari(S,R), great_sigma(U,B1), great_sigma(U,C1), 
+   great_sigma(U,D1), great_sigma(T,B1), great_sigma(T,C1), great_sigma(T,D1), 
+   great_sigma(T,U), great_sigma(T,E1).
+[sat] [44]
+[less_toxic(a1,r1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,D), r_subst_1(B,E), r_subst_1(A,F), 
+   r_subst_2(B,G), ring_substitutions(B,C), ring_subst_3(B,H), polar(H,I), 
+   size(H,J), flex(H,K), h_doner(H,L), h_acceptor(H,M), 
+   pi_doner(H,N), pi_acceptor(H,O), polarisable(H,P), sigma(H,Q), 
+   gt(C,D), great_polar(I,R), great_polar(I,S), great_polar(I,T), 
+   great_size(J,U), great_polari(P,V), great_sigma(Q,W), great_sigma(Q,X), 
+   great_sigma(Q,Y).
+[sat] [45]
+[less_toxic(u1,ff1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   alk_groups(B,C), alk_groups(A,C), r_subst_1(B,D), r_subst_1(A,D), 
+   r_subst_2(B,E), r_subst_2(A,E), ring_substitutions(B,F), ring_substitutions(A,C), 
+   ring_subst_2(B,G), ring_subst_3(B,G), ring_subst_3(A,G), ring_subst_4(B,G), 
+   ring_subst_5(B,G), ring_subst_6(B,G), polar(G,H), size(G,I), 
+   flex(G,J), h_doner(G,K), h_acceptor(G,L), pi_doner(G,M), 
+   pi_acceptor(G,N), polarisable(G,O), sigma(G,P), gt(C,Q), 
+   great_polar(H,R), great_polar(H,S), great_polar(H,T), great_polar(H,U), 
+   great_polar(H,V), great_size(I,W), great_h_acc(L,X), great_sigma(P,Y), 
+   great_sigma(P,Z), great_sigma(P,A1), great_sigma(P,B1), great_sigma(P,C1).
+[sat] [46]
+[less_toxic(b1,q1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   x_subst(A,C,D), alk_groups(B,E), alk_groups(A,F), r_subst_1(B,G), 
+   r_subst_1(A,H), r_subst_2(B,I), ring_substitutions(B,E), ring_subst_2(B,D), 
+   polar(D,J), size(D,K), flex(D,L), h_doner(D,M), 
+   h_acceptor(D,N), pi_doner(D,O), pi_acceptor(D,P), polarisable(D,Q), 
+   sigma(D,R), gt(E,F), great_polar(J,S), great_polar(J,T), 
+   great_polar(J,U), great_size(K,V), great_polari(Q,W), great_sigma(R,X), 
+   great_sigma(R,Y), great_sigma(R,Z).
+[sat] [47]
+[less_toxic(jj1,q1)]
+
+[bottom clause]
+less_toxic(A,B) :-
+   x_subst(A,C,D), alk_groups(B,E), alk_groups(A,E), r_subst_1(B,F), 
+   r_subst_1(A,F), r_subst_2(B,G), r_subst_2(A,G), ring_substitutions(B,E), 
+   ring_substitutions(A,H), ring_subst_2(B,I), polar(I,J), polar(D,K), 
+   size(I,L), size(D,L), flex(I,M), flex(D,M), 
+   h_doner(I,N), h_doner(D,N), h_acceptor(I,O), h_acceptor(D,P), 
+   pi_doner(I,Q), pi_doner(D,Q), pi_acceptor(I,R), pi_acceptor(D,R), 
+   polarisable(I,S), polarisable(D,T), sigma(I,U), sigma(D,V), 
+   gt(E,H), great_polar(K,W), great_polar(K,X), great_polar(K,Y), 
+   great_polar(K,J), great_polar(K,Z), great_polar(J,W), great_polar(J,X), 
+   great_polar(J,Y), great_size(L,A1), great_h_acc(P,O), great_polari(S,T), 
+   great_sigma(V,B1), great_sigma(V,C1), great_sigma(V,D1), great_sigma(V,U), 
+   great_sigma(V,E1), great_sigma(U,B1), great_sigma(U,C1), great_sigma(U,D1).
+[sat] [1]
+[48]
+
+[bottom clause]
+[sat] [2]
+[49]
+
+[bottom clause]
+[sat] [3]
+[50]
+
+[bottom clause]
+[sat] [4]
+[51]
+
+[bottom clause]
+[sat] [5]
+[52]
+
+[bottom clause]
+[sat] [6]
+[53]
+
+[bottom clause]
+[sat] [7]
+[54]
+
+[bottom clause]
+[sat] [8]
+[55]
+
+[bottom clause]
+[sat] [9]
+[56]
+
+[bottom clause]
+[sat] [10]
+[57]
+
+[bottom clause]
+[sat] [11]
+[58]
+
+[bottom clause]
+[sat] [12]
+[59]
+
+[bottom clause]
+[sat] [13]
+[60]
+
+[bottom clause]
+[sat] [14]
+[61]
+
+[bottom clause]
+[sat] [15]
+[62]
+
+[bottom clause]
+[sat] [16]
+[63]
+
+[bottom clause]
+[sat] [17]
+[64]
+
+[bottom clause]
+[sat] [18]
+[65]
+
+[bottom clause]
+[sat] [19]
+[66]
+
+[bottom clause]
+[sat] [20]
+[67]
+
+[bottom clause]
+[sat] [21]
+[68]
+
+[bottom clause]
+[sat] [22]
+[69]
+
+[bottom clause]
+[sat] [23]
+[70]
+
+[bottom clause]
+[sat] [24]
+[71]
+
+[bottom clause]
+[sat] [25]
+[72]
+
+[bottom clause]
+[sat] [26]
+[73]
+
+[bottom clause]
+[sat] [27]
+[74]
+
+[bottom clause]
+[sat] [28]
+[75]
+
+[bottom clause]
+[sat] [29]
+[76]
+
+[bottom clause]
+[sat] [30]
+[77]
+
+[bottom clause]
+[sat] [31]
+[78]
+
+[bottom clause]
+[sat] [32]
+[79]
+
+[bottom clause]
+[sat] [33]
+[80]
+
+[bottom clause]
+[sat] [34]
+[81]
+
+[bottom clause]
+[sat] [35]
+[82]
+
+[bottom clause]
+[sat] [36]
+[83]
+
+[bottom clause]
+[sat] [37]
+[84]
+
+[bottom clause]
+[sat] [38]
+[85]
+
+[bottom clause]
+[sat] [39]
+[86]
+
+[bottom clause]
+[sat] [40]
+[87]
+
+[bottom clause]
+[sat] [41]
+[88]
+
+[bottom clause]
+[sat] [42]
+[89]
+
+[bottom clause]
+[sat] [43]
+[90]
+
+[bottom clause]
+[sat] [44]
+[91]
+
+[bottom clause]
+[sat] [45]
+[92]
+
+[bottom clause]
+[sat] [46]
+[93]
+
+[bottom clause]
+[sat] [47]
+[94]
+
+[bottom clause]
+[sat] [48]
+[95]
+
+[bottom clause]
+[sat] [49]
+[96]
+
+[bottom clause]
+[sat] [50]
+[97]
+
+[bottom clause]
+[sat] [51]
+[98]
+
+[bottom clause]
+[sat] [52]
+[99]
+
+[bottom clause]
+[sat] [53]
+[100]
+
+[bottom clause]
+[sat] [54]
+[101]
+
+[bottom clause]
+[sat] [55]
+[102]
+
+[bottom clause]
+[sat] [56]
+[103]
+
+[bottom clause]
+[sat] [57]
+[104]
+
+[bottom clause]
+[sat] [58]
+[105]
+
+[bottom clause]
+[sat] [59]
+[106]
+
+[bottom clause]
+[sat] [60]
+[107]
+
+[bottom clause]
+[sat] [61]
+[108]
+
+[bottom clause]
+[sat] [62]
+[109]
+
+[bottom clause]
+[sat] [63]
+[110]
+
+[bottom clause]
+[sat] [64]
+[111]
+
+[bottom clause]
+[sat] [65]
+[112]
+
+[bottom clause]
+[sat] [66]
+[113]
+
+[bottom clause]
+[sat] [67]
+[114]
+
+[bottom clause]
+[sat] [68]
+[115]
+
+[bottom clause]
+[sat] [69]
+[116]
+
+[bottom clause]
+[sat] [70]
+[117]
+
+[bottom clause]
+[sat] [71]
+[118]
+
+[bottom clause]
+[sat] [72]
+[119]
+
+[bottom clause]
+[sat] [73]
+[120]
+
+[bottom clause]
+[sat] [74]
+[121]
+
+[bottom clause]
+[sat] [75]
+[122]
+
+[bottom clause]
+[sat] [76]
+[123]
+
+[bottom clause]
+[sat] [77]
+[124]
+
+[bottom clause]
+[sat] [78]
+[125]
+
+[bottom clause]
+[sat] [79]
+[126]
+
+[bottom clause]
+[sat] [80]
+[127]
+
+[bottom clause]
+[sat] [81]
+[128]
+
+[bottom clause]
+[sat] [82]
+[129]
+
+[bottom clause]
+[sat] [83]
+[130]
+
+[bottom clause]
+[sat] [84]
+[131]
+
+[bottom clause]
+[sat] [85]
+[132]
+
+[bottom clause]
+[sat] [86]
+[133]
+
+[bottom clause]
+[sat] [87]
+[134]
+
+[bottom clause]
+[sat] [88]
+[135]
+
+[bottom clause]
+[sat] [89]
+[136]
+
+[bottom clause]
+[sat] [90]
+[137]
+
+[bottom clause]
+[sat] [91]
+[138]
+
+[bottom clause]
+[sat] [92]
+[139]
+
+[bottom clause]
+[sat] [93]
+[140]
+
+[bottom clause]
+[sat] [94]
+[141]
+
+[bottom clause]
+[sat] [95]
+[142]
+
+[bottom clause]
+[sat] [96]
+[143]
+
+[bottom clause]
+[sat] [97]
+[144]
+
+[bottom clause]
+[sat] [98]
+[145]
+
+[bottom clause]
+[sat] [99]
+[146]
+
+[bottom clause]
+[sat] [100]
+[147]
+
+[bottom clause]
+[sat] [101]
+[148]
+
+[bottom clause]
+[sat] [102]
+[149]
+
+[bottom clause]
+[sat] [103]
+[150]
+
+[bottom clause]
+[sat] [104]
+[151]
+
+[bottom clause]
+[sat] [105]
+[152]
+
+[bottom clause]
+[sat] [106]
+[153]
+
+[bottom clause]
+[sat] [107]
+[154]
+
+[bottom clause]
+[sat] [108]
+[155]
+
+[bottom clause]
+[sat] [109]
+[156]
+
+[bottom clause]
+[sat] [110]
+[157]
+
+[bottom clause]
+[sat] [111]
+[158]
+
+[bottom clause]
+[sat] [112]
+[159]
+
+[bottom clause]
+[sat] [113]
+[160]
+
+[bottom clause]
+[sat] [114]
+[161]
+
+[bottom clause]
+[sat] [115]
+[162]
+
+[bottom clause]
+[sat] [116]
+[163]
+
+[bottom clause]
+[sat] [117]
+[164]
+
+[bottom clause]
+[sat] [118]
+[165]
+
+[bottom clause]
+[sat] [119]
+[166]
+
+[bottom clause]
+[sat] [120]
+[167]
+
+[bottom clause]
+[sat] [121]
+[168]
+
+[bottom clause]
+[sat] [122]
+[169]
+
+[bottom clause]
+[sat] [123]
+[170]
+
+[bottom clause]
+[sat] [124]
+[171]
+
+[bottom clause]
+[sat] [125]
+[172]
+
+[bottom clause]
+[sat] [126]
+[173]
+
+[bottom clause]
+[sat] [127]
+[174]
+
+[bottom clause]
+[sat] [128]
+[175]
+
+[bottom clause]
+[sat] [129]
+[176]
+
+[bottom clause]
+[sat] [130]
+[177]
+
+[bottom clause]
+[sat] [131]
+[178]
+
+[bottom clause]
+[sat] [132]
+[179]
+
+[bottom clause]
+[sat] [133]
+[180]
+
+[bottom clause]
+[sat] [134]
+[181]
+
+[bottom clause]
+[sat] [135]
+[182]
+
+[bottom clause]
+[sat] [136]
+[183]
+
+[bottom clause]
+[sat] [137]
+[184]
+
+[bottom clause]
+[sat] [138]
+[185]
+
+[bottom clause]
+[sat] [139]
+[186]
+
+[bottom clause]
+[sat] [140]
+[187]
+
+[bottom clause]
+[sat] [141]
+[188]
+
+[bottom clause]
+[sat] [142]
+[189]
+
+[bottom clause]
+[sat] [143]
+[190]
+
+[bottom clause]
+[sat] [144]
+[191]
+
+[bottom clause]
+[sat] [145]
+[192]
+
+[bottom clause]
+[sat] [146]
+[193]
+
+[bottom clause]
+[sat] [147]
+[194]
+
+[bottom clause]
+[sat] [148]
+[195]
+
+[bottom clause]
+[sat] [149]
+[196]
+
+[bottom clause]
+[sat] [150]
+[197]
+
+[bottom clause]
+[sat] [151]
+[198]
+
+[bottom clause]
+[sat] [152]
+[199]
+
+[bottom clause]
+[sat] [153]
+[200]
+
+[bottom clause]
+[sat] [154]
+[201]
+
+[bottom clause]
+[sat] [155]
+[202]
+
+[bottom clause]
+[sat] [156]
+[203]
+
+[bottom clause]
+[sat] [157]
+[204]
+
+[bottom clause]
+[sat] [158]
+[205]
+
+[bottom clause]
+[sat] [159]
+[206]
+
+[bottom clause]
+[sat] [160]
+[207]
+
+[bottom clause]
+[sat] [161]
+[208]
+
+[bottom clause]
+[sat] [162]
+[209]
+
+[bottom clause]
+[sat] [163]
+[210]
+
+[bottom clause]
+[sat] [164]
+[211]
+
+[bottom clause]
+[sat] [165]
+[212]
+
+[bottom clause]
+[sat] [166]
+[213]
+
+[bottom clause]
+[sat] [167]
+[214]
+
+[bottom clause]
+[sat] [168]
+[215]
+
+[bottom clause]
+[sat] [169]
+[216]
+
+[bottom clause]
+[sat] [170]
+[217]
+
+[bottom clause]
+[sat] [171]
+[218]
+
+[bottom clause]
+[sat] [172]
+[219]
+
+[bottom clause]
+[sat] [173]
+[220]
+
+[bottom clause]
+[sat] [174]
+[221]
+
+[bottom clause]
+[sat] [175]
+[222]
+
+[bottom clause]
+[sat] [176]
+[223]
+
+[bottom clause]
+[sat] [177]
+[224]
+
+[bottom clause]
+[sat] [178]
+[225]
+
+[bottom clause]
+[sat] [179]
+[226]
+
+[bottom clause]
+[sat] [180]
+[227]
+
+[bottom clause]
+[sat] [181]
+[228]
+
+[bottom clause]
+[sat] [182]
+[229]
+
+[bottom clause]
+[sat] [183]
+[230]
+
+[bottom clause]
+[sat] [184]
+[231]
+
+[bottom clause]
+[sat] [185]
+[232]
+
+[bottom clause]
+[sat] [186]
+[233]
+
+[bottom clause]
+[sat] [187]
+[234]
+
+[bottom clause]
+[sat] [188]
+[235]
+
+[bottom clause]
+[sat] [189]
+[236]
+
+[bottom clause]
+[sat] [190]
+[237]
+
+[bottom clause]
+[sat] [191]
+[238]
+
+[bottom clause]
+[sat] [192]
+[239]
+
+[bottom clause]
+[sat] [193]
+[240]
+
+[bottom clause]
+[sat] [194]
+[241]
+
+[bottom clause]
+[sat] [195]
+[242]
+
+[bottom clause]
+[sat] [196]
+[243]
+
+[bottom clause]
+[sat] [197]
+[244]
+
+[bottom clause]
+[sat] [198]
+[245]
+
+[bottom clause]
+[sat] [199]
+[246]
+
+[bottom clause]
+[sat] [200]
+[247]
+
+[bottom clause]
+[sat] [201]
+[248]
+
+[bottom clause]
+[sat] [202]
+[249]
+
+[bottom clause]
+[sat] [203]
+[250]
+
+[bottom clause]
+[sat] [204]
+[251]
+
+[bottom clause]
+[sat] [205]
+[252]
+
+[bottom clause]
+[sat] [206]
+[253]
+
+[bottom clause]
+[sat] [207]
+[254]
+
+[bottom clause]
+[sat] [208]
+[255]
+
+[bottom clause]
+[sat] [209]
+[256]
+
+[bottom clause]
+[sat] [210]
+[257]
+
+[bottom clause]
+[sat] [211]
+[258]
+
+[bottom clause]
+[sat] [212]
+[259]
+
+[bottom clause]
+[sat] [213]
+[260]
+
+[bottom clause]
+[sat] [214]
+[261]
+
+[bottom clause]
+[sat] [215]
+[262]
+
+[bottom clause]
+[sat] [216]
+[263]
+
+[bottom clause]
+[sat] [217]
+[264]
+
+[bottom clause]
+[sat] [218]
+[265]
+
+[bottom clause]
+[sat] [219]
+[266]
+
+[bottom clause]
+[sat] [220]
+[267]
+
+[bottom clause]
+[sat] [221]
+[268]
+
+[bottom clause]
+[sat] [222]
+[269]
+
+[bottom clause]
+[sat] [223]
+[270]
+
+[bottom clause]
+[sat] [224]
+[271]
+
+[bottom clause]
+[sat] [225]
+[272]
+
+[bottom clause]
+[sat] [226]
+[273]
+
+[bottom clause]
+[sat] [227]
+[274]
+
+[bottom clause]
+[sat] [228]
+[275]
+
+[bottom clause]
+[sat] [229]
+[276]
+
+[bottom clause]
+[sat] [230]
+[277]
+
+[bottom clause]
+[sat] [231]
+[278]
+
+[bottom clause]
+[sat] [232]
+[279]
+
+[bottom clause]
+[sat] [233]
+[280]
+
+[bottom clause]
+[sat] [234]
+[281]
+
+[bottom clause]
+[sat] [235]
+[282]
+
+[bottom clause]
+[sat] [236]
+[283]
+
+[bottom clause]
+[sat] [237]
+[284]
+
+[bottom clause]
+[sat] [238]
+[285]
+
+[bottom clause]
+[sat] [239]
+[286]
+
+[bottom clause]
+[sat] [240]
+[287]
+
+[bottom clause]
+[sat] [241]
+[288]
+
+[bottom clause]
+[sat] [242]
+[289]
+
+[bottom clause]
+[sat] [243]
+[290]
+
+[bottom clause]
+[sat] [244]
+[291]
+
+[bottom clause]
+[sat] [245]
+[292]
+
+[bottom clause]
+[sat] [246]
+[293]
+
+[bottom clause]
+[sat] [247]
+[294]
+
+[bottom clause]
+[sat] [248]
+[295]
+
+[bottom clause]
+[sat] [249]
+[296]
+
+[bottom clause]
+[sat] [250]
+[297]
+
+[bottom clause]
+[sat] [251]
+[298]
+
+[bottom clause]
+[sat] [252]
+[299]
+
+[bottom clause]
+[sat] [253]
+[300]
+
+[bottom clause]
+[sat] [254]
+[301]
+
+[bottom clause]
+[sat] [255]
+[302]
+
+[bottom clause]
+[sat] [256]
+[303]
+
+[bottom clause]
+[sat] [257]
+[304]
+
+[bottom clause]
+[sat] [258]
+[305]
+
+[bottom clause]
+[sat] [259]
+[306]
+
+[bottom clause]
+[sat] [260]
+[307]
+
+[bottom clause]
+[sat] [261]
+[308]
+
+[bottom clause]
+[sat] [262]
+[309]
+
+[bottom clause]
+[sat] [263]
+[310]
+
+[bottom clause]
+[sat] [264]
+[311]
+
+[bottom clause]
+[sat] [265]
+[312]
+
+[bottom clause]
+[sat] [266]
+[313]
+
+[bottom clause]
+[sat] [267]
+[314]
+
+[bottom clause]
+[sat] [268]
+[315]
+
+[bottom clause]
+[sat] [269]
+[316]
+
+[bottom clause]
+[sat] [270]
+[317]
+
+[bottom clause]
+[sat] [271]
+[318]
+
+[bottom clause]
+[sat] [272]
+[319]
+
+[bottom clause]
+[sat] [273]
+[320]
+
+[bottom clause]
+[sat] [274]
+[321]
+
+[bottom clause]
+[sat] [275]
+[322]
+
+[bottom clause]
+[sat] [276]
+[323]
+
+[bottom clause]
+[sat] [277]
+[324]
+
+[bottom clause]
+[sat] [278]
+[325]
+
+[bottom clause]
+[sat] [279]
+[326]
+
+[bottom clause]
+[sat] [280]
+[327]
+
+[bottom clause]
+[sat] [281]
+[328]
+
+[bottom clause]
+[sat] [282]
+[329]
+
+[bottom clause]
+[sat] [283]
+[330]
+
+[bottom clause]
+[sat] [284]
+[331]
+
+[bottom clause]
+[sat] [285]
+[332]
+
+[bottom clause]
+[sat] [286]
+[333]
+
+[bottom clause]
+[sat] [287]
+[334]
+
+[bottom clause]
+[sat] [288]
+[335]
+
+[bottom clause]
+[sat] [289]
+[336]
+
+[bottom clause]
+[sat] [290]
+[337]
+
+[bottom clause]
+[sat] [291]
+[338]
+
+[bottom clause]
+[sat] [292]
+[339]
+
+[bottom clause]
+[sat] [293]
+[340]
+
+[bottom clause]
+[sat] [294]
+[341]
+
+[bottom clause]
+[sat] [295]
+[342]
+
+[bottom clause]
+[sat] [296]
+[343]
+
+[bottom clause]
+[sat] [297]
+[344]
+
+[bottom clause]
+[sat] [298]
+[345]
+
+[bottom clause]
+[sat] [299]
+[346]
+
+[bottom clause]
+[sat] [300]
+[347]
+
+[bottom clause]
+[sat] [301]
+[348]
+
+[bottom clause]
+[sat] [302]
+[349]
+
+[bottom clause]
+[sat] [303]
+[350]
+
+[bottom clause]
+[sat] [304]
+[351]
+
+[bottom clause]
+[sat] [305]
+[352]
+
+[bottom clause]
+[sat] [306]
+[353]
+
+[bottom clause]
+[sat] [307]
+[354]
+
+[bottom clause]
+[sat] [308]
+[355]
+
+[bottom clause]
+[sat] [309]
+[356]
+
+[bottom clause]
+[sat] [310]
+[357]
+
+[bottom clause]
+[sat] [311]
+[358]
+
+[bottom clause]
+[sat] [312]
+[359]
+
+[bottom clause]
+[sat] [313]
+[360]
+
+[bottom clause]
+[sat] [314]
+[361]
+
+[bottom clause]
+[sat] [315]
+[362]
+
+[bottom clause]
+[sat] [316]
+[363]
+
+[bottom clause]
+[sat] [317]
+[364]
+
+[bottom clause]
+[sat] [318]
+[365]
+
+[bottom clause]
+[sat] [319]
+[366]
+
+[bottom clause]
+[sat] [320]
+[367]
+
+[bottom clause]
+[sat] [321]
+[368]
+
+[bottom clause]
+[sat] [322]
+[369]
+
+[bottom clause]
+[sat] [323]
+[370]
+
+[bottom clause]
+[sat] [324]
+[371]
+
+[bottom clause]
+[sat] [325]
+[372]
+
+[bottom clause]
+[sat] [326]
+[373]
+
+[bottom clause]
+[sat] [327]
+[374]
+
+[bottom clause]
+[sat] [328]
+[375]
+
+[bottom clause]
+[sat] [329]
+[376]
+
+[bottom clause]
+[sat] [330]
+[377]
+
+[bottom clause]
+[sat] [331]
+[378]
+
+[bottom clause]
+[sat] [332]
+[379]
+
+[bottom clause]
+[sat] [333]
+[380]
+
+[bottom clause]
+[sat] [334]
+[381]
+
+[bottom clause]
+[sat] [335]
+[382]
+
+[bottom clause]
+[sat] [336]
+[383]
+
+[bottom clause]
+[sat] [337]
+[384]
+
+[bottom clause]
+[sat] [338]
+[385]
+
+[bottom clause]
+[sat] [339]
+[386]
+
+[bottom clause]
+[sat] [340]
+[387]
+
+[bottom clause]
+[sat] [341]
+[388]
+
+[bottom clause]
+[sat] [342]
+[389]
+
+[bottom clause]
+[sat] [343]
+[390]
+
+[bottom clause]
+[sat] [344]
+[391]
+
+[bottom clause]
+[sat] [345]
+[392]
+
+[bottom clause]
+[sat] [346]
+[393]
+
+[bottom clause]
+[sat] [347]
+[394]
+
+[bottom clause]
+[sat] [348]
+[395]
+
+[bottom clause]
+[sat] [349]
+[396]
+
+[bottom clause]
+[sat] [350]
+[397]
+
+[bottom clause]
+[sat] [351]
+[398]
+
+[bottom clause]
+[sat] [352]
+[399]
+
+[bottom clause]
+[sat] [353]
+[400]
+
+[bottom clause]
+[sat] [354]
+[401]
+
+[bottom clause]
+[sat] [355]
+[402]
+
+[bottom clause]
+[sat] [356]
+[403]
+
+[bottom clause]
+[sat] [357]
+[404]
+
+[bottom clause]
+[sat] [358]
+[405]
+
+[bottom clause]
+[sat] [359]
+[406]
+
+[bottom clause]
+[sat] [360]
+[407]
+
+[bottom clause]
+[sat] [361]
+[408]
+
+[bottom clause]
+[sat] [362]
+[409]
+
+[bottom clause]
+[sat] [363]
+[410]
+
+[bottom clause]
+[sat] [364]
+[411]
+
+[bottom clause]
+[sat] [365]
+[412]
+
+[bottom clause]
+[sat] [366]
+[413]
+
+[bottom clause]
+[sat] [367]
+[414]
+
+[bottom clause]
+[sat] [368]
+[415]
+
+[bottom clause]
+[sat] [369]
+[416]
+
+[bottom clause]
+[sat] [370]
+[417]
+
+[bottom clause]
+[sat] [371]
+[418]
+
+[bottom clause]
+[sat] [372]
+[419]
+
+[bottom clause]
+[sat] [373]
+[420]
+
+[bottom clause]
+[sat] [374]
+[421]
+
+[bottom clause]
+[sat] [375]
+[422]
+
+[bottom clause]
+[sat] [376]
+[423]
+
+[bottom clause]
+[sat] [377]
+[424]
+
+[bottom clause]
+[sat] [378]
+[425]
+
+[bottom clause]
+[sat] [379]
+[426]
+
+[bottom clause]
+[sat] [380]
+[427]
+
+[bottom clause]
+[sat] [381]
+[428]
+
+[bottom clause]
+[sat] [382]
+[429]
+
+[bottom clause]
+[sat] [383]
+[430]
+
+[bottom clause]
+[sat] [384]
+[431]
+
+[bottom clause]
+[sat] [385]
+[432]
+
+[bottom clause]
+[sat] [386]
+[433]
+
+[bottom clause]
+[sat] [387]
+[434]
+
+[bottom clause]
+[sat] [388]
+[435]
+
+[bottom clause]
+[sat] [389]
+[436]
+
+[bottom clause]
+[sat] [390]
+[437]
+
+[bottom clause]
+[sat] [391]
+[438]
+
+[bottom clause]
+[sat] [392]
+[439]
+
+[bottom clause]
+[sat] [393]
+[440]
+
+[bottom clause]
+[sat] [394]
+[441]
+
+[bottom clause]
+[sat] [395]
+[442]
+
+[bottom clause]
+[sat] [396]
+[443]
+
+[bottom clause]
+[sat] [397]
+[444]
+
+[bottom clause]
+[sat] [398]
+[445]
+
+[bottom clause]
+[sat] [399]
+[446]
+
+[bottom clause]
+[sat] [400]
+[447]
+
+[bottom clause]
+[sat] [401]
+[448]
+
+[bottom clause]
+[sat] [402]
+[449]
+
+[bottom clause]
+[sat] [403]
+[450]
+
+[bottom clause]
+[sat] [404]
+[451]
+
+[bottom clause]
+[sat] [405]
+[452]
+
+[bottom clause]
+[sat] [406]
+[453]
+
+[bottom clause]
+[sat] [407]
+[454]
+
+[bottom clause]
+[sat] [408]
+[455]
+
+[bottom clause]
+[sat] [409]
+[456]
+
+[bottom clause]
+[sat] [410]
+[457]
+
+[bottom clause]
+[sat] [411]
+[458]
+
+[bottom clause]
+[sat] [412]
+[459]
+
+[bottom clause]
+[sat] [413]
+[460]
+
+[bottom clause]
+[sat] [414]
+[461]
+
+[bottom clause]
+[sat] [415]
+[462]
+
+[bottom clause]
+[sat] [416]
+[463]
+
+[bottom clause]
+[sat] [417]
+[464]
+
+[bottom clause]
+[sat] [418]
+[465]
+
+[bottom clause]
+[sat] [419]
+[466]
+
+[bottom clause]
+[sat] [420]
+[467]
+
+[bottom clause]
+[sat] [421]
+[468]
+
+[bottom clause]
+[sat] [422]
+[469]
+
+[bottom clause]
+[sat] [423]
+[470]
+
+[bottom clause]
+[sat] [424]
+[471]
+
+[bottom clause]
+[sat] [425]
+[472]
+
+[bottom clause]
+[sat] [426]
+[473]
+
+[bottom clause]
+[sat] [427]
+[474]
+
+[bottom clause]
+[sat] [428]
+[475]
+
+[bottom clause]
+[sat] [429]
+[476]
+
+[bottom clause]
+[sat] [430]
+[477]
+
+[bottom clause]
+[sat] [431]
+[478]
+
+[bottom clause]
+[sat] [432]
+[479]
+
+[bottom clause]
+[sat] [433]
+[480]
+
+[bottom clause]
+[sat] [434]
+[481]
+
+[bottom clause]
+[sat] [435]
+[482]
+
+[bottom clause]
+[sat] [436]
+[483]
+
+[bottom clause]
+[sat] [437]
+[484]
+
+[bottom clause]
+[sat] [438]
+[485]
+
+[bottom clause]
+[sat] [439]
+[486]
+
+[bottom clause]
+[sat] [440]
+[487]
+
+[bottom clause]
+[sat] [441]
+[488]
+
+[bottom clause]
+[sat] [442]
+[489]
+
+[bottom clause]
+[sat] [443]
+[490]
+
+[bottom clause]
+[sat] [444]
+[491]
+
+[bottom clause]
+[sat] [445]
+[492]
+
+[bottom clause]
+[sat] [446]
+[493]
+
+[bottom clause]
+[sat] [447]
+[494]
+
+[bottom clause]
+[sat] [448]
+[495]
+
+[bottom clause]
+[sat] [449]
+[496]
+
+[bottom clause]
+[sat] [450]
+[497]
+
+[bottom clause]
+[sat] [451]
+[498]
+
+[bottom clause]
+[sat] [452]
+[499]
+
+[bottom clause]
+[sat] [453]
+[500]
+
+[bottom clause]

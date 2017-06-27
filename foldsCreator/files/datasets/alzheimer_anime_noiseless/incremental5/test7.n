@@ -1,0 +1,17 @@
+great_ne(aa1,z1).
+great_ne(h1,ii1).
+great_ne(a1,t1).
+great_ne(h1,cc1).
+great_ne(x1,kk1).
+great_ne(y1,u1).
+great_ne(dd1,cc1).
+great_ne(dd1,kk1).
+great_ne(i1,t1).
+great_ne(a1,ee1).
+great_ne(h1,hh1).
+great_ne(v1,ee1).
+great_ne(m1,jj1).
+great_ne(y1,v1).
+great_ne(m1,ee1).
+great_ne(b1,y1).
+great_ne(y1,ii1).

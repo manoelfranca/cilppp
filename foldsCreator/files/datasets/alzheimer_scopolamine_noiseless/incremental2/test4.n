@@ -1,0 +1,6 @@
+great_rsd(hh1,v1).
+great_rsd(hh1,g1).
+great_rsd(k1,ee1).
+great_rsd(c1,a1).
+great_rsd(x1,c1).
+great_rsd(l1,ff1).

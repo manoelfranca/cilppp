@@ -1,0 +1,13 @@
+less_toxic(kk1,p1).
+less_toxic(ee1,i1).
+less_toxic(n1,h1).
+less_toxic(n1,cc1).
+less_toxic(r1,d1).
+less_toxic(bb1,jj1).
+less_toxic(w1,u1).
+less_toxic(x1,e1).
+less_toxic(cc1,v1).
+less_toxic(n1,i1).
+less_toxic(j1,h1).
+less_toxic(n1,aa1).
+less_toxic(cc1,h1).

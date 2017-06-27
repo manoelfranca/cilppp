@@ -1,0 +1,13 @@
+great(ff1,e1).
+great(r1,u1).
+great(m1,r1).
+great(aa1,bb1).
+great(o1,e1).
+great(z1,d1).
+great(y1,q1).
+great(p1,x1).
+great(o1,kk1).
+great(g1,k1).
+great(p1,r1).
+great(w1,k1).
+great(t1,kk1).

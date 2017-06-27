@@ -1,0 +1,6 @@
+great(n1,aa1).
+great(w1,r1).
+great(w1,a1).
+great(ll1,jj1).
+great(x1,v1).
+great(m1,t1).

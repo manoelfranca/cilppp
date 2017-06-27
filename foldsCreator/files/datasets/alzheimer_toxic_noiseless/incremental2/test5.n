@@ -1,0 +1,8 @@
+less_toxic(e1,ii1).
+less_toxic(e1,s1).
+less_toxic(p1,o1).
+less_toxic(l1,ff1).
+less_toxic(t1,cc1).
+less_toxic(v1,w1).
+less_toxic(f1,ll1).
+less_toxic(v1,j1).

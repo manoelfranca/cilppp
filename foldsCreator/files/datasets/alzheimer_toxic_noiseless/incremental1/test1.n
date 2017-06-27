@@ -1,0 +1,4 @@
+less_toxic(p1,g1).
+less_toxic(t1,ee1).
+less_toxic(u1,b1).
+less_toxic(t1,x1).

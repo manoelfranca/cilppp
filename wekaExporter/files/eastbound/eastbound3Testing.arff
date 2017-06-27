@@ -1,0 +1,59 @@
+@Relation eastbound3
+
+@Attribute has_car(A;B) {-1,0,1}
+@Attribute has_car(A;C) {-1,0,1}
+@Attribute has_car(A;D) {-1,0,1}
+@Attribute has_car(A;E) {-1,0,1}
+@Attribute short(E) {-1,0,1}
+@Attribute short(C) {-1,0,1}
+@Attribute closed(C) {-1,0,1}
+@Attribute long(D) {-1,0,1}
+@Attribute long(B) {-1,0,1}
+@Attribute open_car(E) {-1,0,1}
+@Attribute open_car(D) {-1,0,1}
+@Attribute open_car(B) {-1,0,1}
+@Attribute shape(E;rectangle) {-1,0,1}
+@Attribute shape(D;rectangle) {-1,0,1}
+@Attribute shape(C;rectangle) {-1,0,1}
+@Attribute shape(B;rectangle) {-1,0,1}
+@Attribute wheels(E;2) {-1,0,1}
+@Attribute wheels(D;3) {-1,0,1}
+@Attribute wheels(C;2) {-1,0,1}
+@Attribute wheels(B;2) {-1,0,1}
+@Attribute load(E;circle;1) {-1,0,1}
+@Attribute load(D;hexagon;1) {-1,0,1}
+@Attribute load(C;triangle;1) {-1,0,1}
+@Attribute load(B;rectangle;3) {-1,0,1}
+@Attribute short(D) {-1,0,1}
+@Attribute short(B) {-1,0,1}
+@Attribute closed(D) {-1,0,1}
+@Attribute open_car(C) {-1,0,1}
+@Attribute shape(C;u_shaped) {-1,0,1}
+@Attribute shape(B;u_shaped) {-1,0,1}
+@Attribute wheels(D;2) {-1,0,1}
+@Attribute load(D;circle;2) {-1,0,1}
+@Attribute load(C;rectangle;1) {-1,0,1}
+@Attribute load(B;triangle;1) {-1,0,1}
+@Attribute double(C) {-1,0,1}
+@Attribute shape(D;elipse) {-1,0,1}
+@Attribute load(E;rectangle;1) {-1,0,1}
+@Attribute load(D;rectangle;1) {-1,0,1}
+@Attribute double(B) {-1,0,1}
+@Attribute wheels(C;3) {-1,0,1}
+@Attribute load(D;circle;1) {-1,0,1}
+@Attribute closed(B) {-1,0,1}
+@Attribute load(B;circle;3) {-1,0,1}
+@Attribute jagged(D) {-1,0,1}
+@Attribute load(D;nil;0) {-1,0,1}
+@Attribute load(B;circle;1) {-1,0,1}
+@Attribute wheels(B;3) {-1,0,1}
+@Attribute load(C;circle;1) {-1,0,1}
+@Attribute load(B;rectangle;1) {-1,0,1}
+@Attribute long(C) {-1,0,1}
+@Attribute jagged(C) {-1,0,1}
+@Attribute shape(E;u_shaped) {-1,0,1}
+@Attribute load(C;rectangle;2) {-1,0,1}
+@Attribute eastbound(A) {-1,0,1}
+
+@Data
+1,1,1,0,0,1,1,1,0,0,0,1,0,1,0,1,0,1,1,1,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1
