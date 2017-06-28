@@ -1,0 +1,42 @@
+*** Main dataset ***
+
+Dataset size: 10
+
+Dataset 1: 149 training data, 18 testing data.
+Bodies, heads and clauses of current training data are of same size? true
+Bodies, heads and clauses of current testing data are of same size? true
+Dataset 2: 150 training data, 17 testing data.
+Bodies, heads and clauses of current training data are of same size? true
+Bodies, heads and clauses of current testing data are of same size? true
+Dataset 3: 148 training data, 18 testing data.
+Bodies, heads and clauses of current training data are of same size? true
+Bodies, heads and clauses of current testing data are of same size? true
+Dataset 4: 147 training data, 18 testing data.
+Bodies, heads and clauses of current training data are of same size? true
+Bodies, heads and clauses of current testing data are of same size? true
+Dataset 5: 149 training data, 18 testing data.
+Bodies, heads and clauses of current training data are of same size? true
+Bodies, heads and clauses of current testing data are of same size? true
+Dataset 6: 151 training data, 17 testing data.
+Bodies, heads and clauses of current training data are of same size? true
+Bodies, heads and clauses of current testing data are of same size? true
+Dataset 7: 147 training data, 18 testing data.
+Bodies, heads and clauses of current training data are of same size? true
+Bodies, heads and clauses of current testing data are of same size? true
+Dataset 8: 151 training data, 18 testing data.
+Bodies, heads and clauses of current training data are of same size? true
+Bodies, heads and clauses of current testing data are of same size? true
+Dataset 9: 149 training data, 18 testing data.
+Bodies, heads and clauses of current training data are of same size? true
+Bodies, heads and clauses of current testing data are of same size? true
+Dataset 10: 140 training data, 26 testing data.
+Bodies, heads and clauses of current training data are of same size? true
+Bodies, heads and clauses of current testing data are of same size? true
+*** Training/validation dataset ***
+
+Dataset size: 0
+
+*** Training/validation dataset ***
+
+Dataset size: 0
+

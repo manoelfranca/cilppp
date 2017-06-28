@@ -63,10 +63,10 @@
 (float)UNKNOWN_INPUTS_AS_FALSE=false
 (float)EXAMPLES_AS_BK_PROPORTION=0.1
 (bool)USES_RECURSION=false
-(bool)COMPLETE_INTERMEDIATE_CONCEPTS=true
+(bool)COMPLETE_INTERMEDIATE_CONCEPTS=false
 (bool)REPLICATE_BK=false
-(int)MAX_REPLICATION_RECURSION=2
-(int)NEW_BCP=true
+(int)MAX_REPLICATION_RECURSION=0
+(int)NEW_BCP=false
 
 # Training parameters
 (0->standard,1->earlyStopping)TRAINING_TYPE=0
@@ -82,10 +82,10 @@
 (float)TEST_PORTION=0
 
 # Stablization parameters
-(int)STABLIZATION_MAX_ITERATIONS=5
+(int)STABLIZATION_MAX_ITERATIONS=0
 
 # Stopping criteria (general)
-(bool)SIMPLE_STOP_CRITERION=false
+(bool)SIMPLE_STOP_CRITERION=true
 
 # Simple stopping criteria parameters
 (float)EPSILON=0.1
@@ -106,7 +106,7 @@
 # Cross-validation parameters
 (float)WEIGHT_INITIAL_RANGE=0.001
 (int)NUMBER_OF_VALIDATION_FOLDS=0
-(int)NUMBER_OF_TEST_FOLDS=42
+(int)NUMBER_OF_TEST_FOLDS=10
 (bool)PRE_SPLITTED_FOLDS=true
 (float)INPUT_PRUNING_VARIATION=0.0
 (int)PRUNING_RATE_FACTOR=0
@@ -114,6 +114,6 @@
 (int)HIDDEN_NEURONS_FACTOR=0
 
 # Printing parameters
-(bool)PRINT_TRAIN_ERROR=true
-(bool)PRINT_TEST_ERROR=false
+(bool)PRINT_TRAIN_ERROR=false
+(bool)PRINT_TEST_ERROR=true
 (bool)DEBUG_MODE=false
